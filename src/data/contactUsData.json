@@ -1,0 +1,8 @@
+{
+  "contactUser": {
+    "name": "Sanket Shevale",
+    "email": "sanketshevale111@gmail.com",
+    "subject": "Automation Testing",
+    "message": "This is my first Playwright Contact Us automation test."
+  }
+}

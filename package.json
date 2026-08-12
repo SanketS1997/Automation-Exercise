@@ -1,0 +1,27 @@
+{
+  "name": "automationexercise",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "headed": "playwright test --headed",
+    "debug": "playwright test --debug",
+    "report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.2",
+    "allure-playwright": "^3.10.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.9.5",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "dayjs": "^1.11.21",
+    "dotenv": "^17.4.2",
+    "uuid": "^14.0.1",
+    "winston": "^3.19.0",
+    "xlsx": "^0.18.5"
+  }
+}
