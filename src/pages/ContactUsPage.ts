@@ -94,7 +94,10 @@ export class ContactUsPage extends BasePage {
 
       try {
         // Wait briefly for the Home button to become visible and clickable.
-        await this.locators.homeButton.locator.waitFor({ state: "visible", timeout: 3000 });
+        await this.locators.homeButton.locator.waitFor({
+          state: "visible",
+          timeout: 3000,
+        });
         await this.locators.homeButton.click();
         return;
       } catch (e) {

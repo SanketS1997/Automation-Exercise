@@ -13,7 +13,10 @@ export class ContactUsValidator extends BaseValidator {
   async verifySuccessMessage(alertMessage?: string): Promise<void> {
     // First try to wait for the success message element to become visible (some pages render it after an alert or delay)
     try {
-      await this.locators.successMessage.locator.waitFor({ state: "visible", timeout: 5000 });
+      await this.locators.successMessage.locator.waitFor({
+        state: "visible",
+        timeout: 5000,
+      });
     } catch (e) {
       // ignore timeout here — we'll fallback to checking dialog message
     }
@@ -39,7 +42,9 @@ export class ContactUsValidator extends BaseValidator {
     // This keeps tests resilient while still attempting to verify the success message first.
     // If strict validation is required, replace this with a thrown error.
     // eslint-disable-next-line no-console
-    console.warn("Contact Us success message was not visible and no success alert was captured — continuing test");
+    console.warn(
+      "Contact Us success message was not visible and no success alert was captured — continuing test",
+    );
     return;
   }
 }

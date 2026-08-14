@@ -14,12 +14,16 @@ export class BaseValidator {
     return input as Locator;
   }
 
-  protected async shouldBeVisible(locatorOrComponent: Locator | BaseComponent): Promise<void> {
+  protected async shouldBeVisible(
+    locatorOrComponent: Locator | BaseComponent,
+  ): Promise<void> {
     const locator = this.resolveLocator(locatorOrComponent);
     await expect(locator).toBeVisible();
   }
 
-  protected async shouldBeHidden(locatorOrComponent: Locator | BaseComponent): Promise<void> {
+  protected async shouldBeHidden(
+    locatorOrComponent: Locator | BaseComponent,
+  ): Promise<void> {
     const locator = this.resolveLocator(locatorOrComponent);
     await expect(locator).toBeHidden();
   }
@@ -40,12 +44,16 @@ export class BaseValidator {
     await expect(locator).toContainText(text);
   }
 
-  protected async shouldBeEnabled(locatorOrComponent: Locator | BaseComponent): Promise<void> {
+  protected async shouldBeEnabled(
+    locatorOrComponent: Locator | BaseComponent,
+  ): Promise<void> {
     const locator = this.resolveLocator(locatorOrComponent);
     await expect(locator).toBeEnabled();
   }
 
-  protected async shouldBeDisabled(locatorOrComponent: Locator | BaseComponent): Promise<void> {
+  protected async shouldBeDisabled(
+    locatorOrComponent: Locator | BaseComponent,
+  ): Promise<void> {
     const locator = this.resolveLocator(locatorOrComponent);
     await expect(locator).toBeDisabled();
   }

@@ -1,0 +1,5 @@
+2026-08-12 09:27:57 [INFO] Opening Home Page
+2026-08-12 09:27:59 [INFO] Click Signup/Login
+2026-08-12 09:27:59 [INFO] Clicking element
+2026-08-12 09:28:00 [INFO] Entering signup details for sanketshevale111@gmail.com
+2026-08-12 09:28:00 [INFO] Clicking Signup button

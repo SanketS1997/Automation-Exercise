@@ -638484,3 +638484,238 @@
 2026-08-12 08:41:08 [INFO] Clicking element
 2026-08-12 08:41:11 [INFO] Opening Home Page
 2026-08-12 08:41:13 [INFO] Opening Test Cases page
+2026-08-12 09:27:00 [INFO] Opening Home Page
+2026-08-12 09:27:03 [INFO] Opening Contact Us page
+2026-08-12 09:27:04 [INFO] Entering contact details for sanketshevale111@gmail.com
+2026-08-12 09:27:05 [INFO] Uploading file: src/data/sample.txt
+2026-08-12 09:27:05 [INFO] Submitting Contact Us form
+2026-08-12 09:27:10 [INFO] Navigating back to Home page
+2026-08-12 09:27:27 [INFO] Opening Home Page
+2026-08-12 09:27:30 [INFO] Click Signup/Login
+2026-08-12 09:27:30 [INFO] Clicking element
+2026-08-12 09:27:31 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-12 09:27:31 [INFO] Clicking Login button
+2026-08-12 09:27:34 [INFO] Opening Home Page
+2026-08-12 09:27:37 [INFO] Click Signup/Login
+2026-08-12 09:27:37 [INFO] Clicking element
+2026-08-12 09:27:38 [INFO] Logging in with wrong@gmail.com
+2026-08-12 09:27:38 [INFO] Clicking Login button
+2026-08-12 09:27:39 [INFO] Opening Home Page
+2026-08-12 09:27:41 [INFO] Click Signup/Login
+2026-08-12 09:27:41 [INFO] Clicking element
+2026-08-12 09:27:42 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-12 09:27:42 [INFO] Clicking Login button
+2026-08-12 09:27:45 [INFO] Logging out
+2026-08-12 09:27:48 [INFO] Opening Home Page
+2026-08-12 09:27:49 [INFO] Opening Products Page
+2026-08-12 09:27:49 [INFO] Clicking element
+2026-08-12 09:27:50 [INFO] Opening First Product
+2026-08-12 09:27:50 [INFO] Clicking element
+2026-08-12 09:27:52 [INFO] Opening Home Page
+2026-08-12 09:27:54 [INFO] Click Signup/Login
+2026-08-12 09:27:54 [INFO] Clicking element
+2026-08-12 09:27:55 [INFO] Entering signup details for sanket1786526872247@gmail.com
+2026-08-12 09:27:55 [INFO] Clicking Signup button
+2026-08-12 09:27:57 [INFO] Opening Home Page
+2026-08-12 09:27:59 [INFO] Click Signup/Login
+2026-08-12 09:27:59 [INFO] Clicking element
+2026-08-12 09:28:00 [INFO] Entering signup details for sanketshevale111@gmail.com
+2026-08-12 09:28:00 [INFO] Clicking Signup button
+2026-08-12 09:28:01 [INFO] Opening Home Page
+2026-08-12 09:28:04 [INFO] Opening Products Page
+2026-08-12 09:28:04 [INFO] Clicking element
+2026-08-12 09:28:05 [INFO] Searching Product : Blue Top
+2026-08-12 09:28:05 [INFO] Entering value: Blue Top
+2026-08-12 09:28:05 [INFO] Clicking element
+2026-08-12 09:28:07 [INFO] Opening Home Page
+2026-08-12 09:28:10 [INFO] Opening Test Cases page
+2026-08-12 11:11:56 [INFO] Opening Home Page
+2026-08-12 11:11:59 [INFO] Opening Contact Us page
+2026-08-12 11:12:01 [INFO] Entering contact details for sanketshevale111@gmail.com
+2026-08-12 11:12:01 [INFO] Uploading file: src/data/sample.txt
+2026-08-12 11:12:01 [INFO] Submitting Contact Us form
+2026-08-12 11:12:07 [INFO] Navigating back to Home page
+2026-08-12 11:12:18 [INFO] Opening Home Page
+2026-08-12 11:12:20 [INFO] Click Signup/Login
+2026-08-12 11:12:20 [INFO] Clicking element
+2026-08-12 11:12:20 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-12 11:12:20 [INFO] Clicking Login button
+2026-08-12 11:12:23 [INFO] Opening Home Page
+2026-08-12 11:12:25 [INFO] Click Signup/Login
+2026-08-12 11:12:25 [INFO] Clicking element
+2026-08-12 11:12:26 [INFO] Logging in with wrong@gmail.com
+2026-08-12 11:12:26 [INFO] Clicking Login button
+2026-08-12 11:12:28 [INFO] Opening Home Page
+2026-08-12 11:12:30 [INFO] Click Signup/Login
+2026-08-12 11:12:30 [INFO] Clicking element
+2026-08-12 11:12:30 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-12 11:12:30 [INFO] Clicking Login button
+2026-08-12 11:12:32 [INFO] Logging out
+2026-08-12 11:12:34 [INFO] Opening Home Page
+2026-08-12 11:12:36 [INFO] Opening Products Page
+2026-08-12 11:12:36 [INFO] Clicking element
+2026-08-12 11:12:37 [INFO] Opening First Product
+2026-08-12 11:12:37 [INFO] Clicking element
+2026-08-12 11:12:41 [INFO] Opening Home Page
+2026-08-12 11:12:44 [INFO] Click Signup/Login
+2026-08-12 11:12:44 [INFO] Clicking element
+2026-08-12 11:12:45 [INFO] Entering signup details for sanket1786533161559@gmail.com
+2026-08-12 11:12:45 [INFO] Clicking Signup button
+2026-08-12 11:12:47 [INFO] Opening Home Page
+2026-08-12 11:12:50 [INFO] Click Signup/Login
+2026-08-12 11:12:50 [INFO] Clicking element
+2026-08-12 11:12:51 [INFO] Entering signup details for sanketshevale111@gmail.com
+2026-08-12 11:12:51 [INFO] Clicking Signup button
+2026-08-12 11:12:53 [INFO] Opening Home Page
+2026-08-12 11:12:55 [INFO] Opening Products Page
+2026-08-12 11:12:55 [INFO] Clicking element
+2026-08-12 11:12:56 [INFO] Searching Product : Blue Top
+2026-08-12 11:12:56 [INFO] Entering value: Blue Top
+2026-08-12 11:12:56 [INFO] Clicking element
+2026-08-12 11:12:58 [INFO] Opening Home Page
+2026-08-12 11:13:00 [INFO] Opening Test Cases page
+2026-08-12 14:15:32 [INFO] Opening Home Page
+2026-08-12 14:15:32 [INFO] Opening Home Page
+2026-08-12 14:15:36 [INFO] Click Signup/Login
+2026-08-12 14:15:36 [INFO] Clicking element
+2026-08-12 14:15:36 [INFO] Opening Contact Us page
+2026-08-12 14:15:37 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-12 14:15:37 [INFO] Clicking Login button
+2026-08-12 14:15:37 [INFO] Entering contact details for sanketshevale111@gmail.com
+2026-08-12 14:15:38 [INFO] Uploading file: src/data/sample.txt
+2026-08-12 14:15:39 [INFO] Submitting Contact Us form
+2026-08-12 14:15:39 [INFO] Alert: Press OK to proceed!
+2026-08-12 14:15:41 [INFO] Navigating back to Home page
+2026-08-12 14:15:43 [INFO] Opening Home Page
+2026-08-12 14:15:44 [INFO] Opening Home Page
+2026-08-12 14:15:45 [INFO] Opening Home Page
+2026-08-12 14:15:47 [INFO] Opening Home Page
+2026-08-12 14:15:47 [INFO] Click Signup/Login
+2026-08-12 14:15:47 [INFO] Clicking element
+2026-08-12 14:15:47 [INFO] Opening Products Page
+2026-08-12 14:15:47 [INFO] Clicking element
+2026-08-12 14:15:48 [INFO] Click Signup/Login
+2026-08-12 14:15:48 [INFO] Clicking element
+2026-08-12 14:15:49 [INFO] Opening First Product
+2026-08-12 14:15:49 [INFO] Clicking element
+2026-08-12 14:15:49 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-12 14:15:50 [INFO] Clicking Login button
+2026-08-12 14:15:51 [INFO] Click Signup/Login
+2026-08-12 14:15:51 [INFO] Clicking element
+2026-08-12 14:15:52 [INFO] Logging out
+2026-08-12 14:15:52 [INFO] Entering signup details for sanket1786544147208@gmail.com
+2026-08-12 14:15:52 [INFO] Logging in with wrong@gmail.com
+2026-08-12 14:15:52 [INFO] Clicking Signup button
+2026-08-12 14:15:52 [INFO] Clicking Login button
+2026-08-12 14:15:57 [INFO] Opening Home Page
+2026-08-12 14:15:57 [INFO] Opening Home Page
+2026-08-12 14:15:59 [INFO] Opening Home Page
+2026-08-12 14:16:00 [INFO] Opening Products Page
+2026-08-12 14:16:00 [INFO] Clicking element
+2026-08-12 14:16:00 [INFO] Click Signup/Login
+2026-08-12 14:16:00 [INFO] Clicking element
+2026-08-12 14:16:01 [INFO] Searching Product : Blue Top
+2026-08-12 14:16:01 [INFO] Entering value: Blue Top
+2026-08-12 14:16:02 [INFO] Clicking element
+2026-08-12 14:16:02 [INFO] Entering signup details for sanketshevale111@gmail.com
+2026-08-12 14:16:02 [INFO] Clicking Signup button
+2026-08-12 14:16:03 [INFO] Opening Test Cases page
+2026-08-13 07:12:05 [INFO] Opening Home Page
+2026-08-13 07:12:05 [INFO] Opening Home Page
+2026-08-13 07:12:10 [INFO] Opening Contact Us page
+2026-08-13 07:12:10 [INFO] Click Signup/Login
+2026-08-13 07:12:11 [INFO] Clicking element
+2026-08-13 07:12:12 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-13 07:12:12 [INFO] Entering contact details for sanketshevale111@gmail.com
+2026-08-13 07:12:12 [INFO] Opening Home Page
+2026-08-13 07:12:13 [INFO] Opening Home Page
+2026-08-13 07:12:13 [INFO] Clicking Login button
+2026-08-13 07:12:13 [INFO] Uploading file: src/data/sample.txt
+2026-08-13 07:12:13 [INFO] Submitting Contact Us form
+2026-08-13 07:12:15 [INFO] Click Signup/Login
+2026-08-13 07:12:15 [INFO] Clicking element
+2026-08-13 07:12:16 [INFO] Click Signup/Login
+2026-08-13 07:12:16 [INFO] Clicking element
+2026-08-13 07:12:18 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-13 07:12:18 [INFO] Clicking Login button
+2026-08-13 07:12:18 [INFO] Logging in with wrong@gmail.com
+2026-08-13 07:12:19 [INFO] Navigating back to Home page
+2026-08-13 07:12:19 [INFO] Clicking Login button
+2026-08-13 07:12:21 [INFO] Logging out
+2026-08-13 07:12:22 [INFO] Opening Home Page
+2026-08-13 07:12:23 [INFO] Opening Home Page
+2026-08-13 07:12:25 [INFO] Opening Home Page
+2026-08-13 07:12:25 [INFO] Opening Home Page
+2026-08-13 07:12:25 [INFO] Opening Products Page
+2026-08-13 07:12:25 [INFO] Clicking element
+2026-08-13 07:12:26 [INFO] Click Signup/Login
+2026-08-13 07:12:26 [INFO] Clicking element
+2026-08-13 07:12:27 [INFO] Opening First Product
+2026-08-13 07:12:27 [INFO] Clicking element
+2026-08-13 07:12:27 [INFO] Click Signup/Login
+2026-08-13 07:12:27 [INFO] Clicking element
+2026-08-13 07:12:28 [INFO] Entering signup details for sanket1786605143049@gmail.com
+2026-08-13 07:12:28 [INFO] Opening Products Page
+2026-08-13 07:12:28 [INFO] Clicking element
+2026-08-13 07:12:28 [INFO] Clicking Signup button
+2026-08-13 07:12:29 [INFO] Entering signup details for sanketshevale111@gmail.com
+2026-08-13 07:12:29 [INFO] Clicking Signup button
+2026-08-13 07:12:30 [INFO] Searching Product : Blue Top
+2026-08-13 07:12:30 [INFO] Entering value: Blue Top
+2026-08-13 07:12:31 [INFO] Clicking element
+2026-08-13 07:12:33 [INFO] Opening Home Page
+2026-08-13 07:12:35 [INFO] Opening Test Cases page
+2026-08-13 07:17:27 [INFO] Opening Home Page
+2026-08-13 07:17:30 [INFO] Opening Home Page
+2026-08-13 07:17:32 [INFO] Opening Home Page
+2026-08-13 07:17:32 [INFO] Opening Home Page
+2026-08-13 07:17:32 [INFO] Opening Contact Us page
+2026-08-13 07:17:33 [INFO] Click Signup/Login
+2026-08-13 07:17:33 [INFO] Clicking element
+2026-08-13 07:17:34 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-13 07:17:35 [INFO] Clicking Login button
+2026-08-13 07:17:35 [INFO] Click Signup/Login
+2026-08-13 07:17:35 [INFO] Clicking element
+2026-08-13 07:17:36 [INFO] Entering contact details for sanketshevale111@gmail.com
+2026-08-13 07:17:37 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-13 07:17:37 [INFO] Click Signup/Login
+2026-08-13 07:17:37 [INFO] Clicking element
+2026-08-13 07:17:37 [INFO] Uploading file: src/data/sample.txt
+2026-08-13 07:17:37 [INFO] Clicking Login button
+2026-08-13 07:17:39 [INFO] Logging in with wrong@gmail.com
+2026-08-13 07:17:39 [INFO] Clicking Login button
+2026-08-13 07:17:40 [INFO] Logging out
+2026-08-13 07:17:42 [INFO] Opening Home Page
+2026-08-13 07:17:47 [INFO] Opening Home Page
+2026-08-13 07:17:47 [INFO] Opening Home Page
+2026-08-13 07:17:47 [INFO] Opening Home Page
+2026-08-13 07:17:48 [INFO] Opening Home Page
+2026-08-13 07:17:52 [INFO] Opening Products Page
+2026-08-13 07:17:52 [INFO] Clicking element
+2026-08-13 07:17:52 [INFO] Opening Test Cases page
+2026-08-13 07:17:53 [INFO] Click Signup/Login
+2026-08-13 07:17:53 [INFO] Clicking element
+2026-08-13 07:17:53 [INFO] Click Signup/Login
+2026-08-13 07:17:53 [INFO] Clicking element
+2026-08-13 07:17:54 [INFO] Searching Product : Blue Top
+2026-08-13 07:17:54 [INFO] Entering value: Blue Top
+2026-08-13 07:17:54 [INFO] Clicking element
+2026-08-13 07:17:55 [INFO] Entering signup details for sanketshevale111@gmail.com
+2026-08-13 07:17:55 [INFO] Clicking Signup button
+2026-08-13 07:17:56 [INFO] Entering signup details for sanket1786605467473@gmail.com
+2026-08-13 07:17:56 [INFO] Clicking Signup button
+2026-08-13 08:19:11 [INFO] Opening Home Page
+2026-08-13 08:19:14 [INFO] Click Signup/Login
+2026-08-13 08:19:14 [INFO] Clicking element
+2026-08-13 08:21:02 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-13 08:21:27 [INFO] Clicking Login button
+2026-08-13 08:23:35 [INFO] Opening Home Page
+2026-08-13 08:23:51 [INFO] Click Signup/Login
+2026-08-13 08:23:51 [INFO] Clicking element
+2026-08-13 08:25:03 [INFO] Logging in with sanketshevale111@gmail.com
+2026-08-13 08:25:58 [INFO] Clicking Login button
+2026-08-13 10:10:08 [INFO] Opening Home Page
+2026-08-13 10:10:11 [INFO] Click Signup/Login
+2026-08-13 10:10:11 [INFO] Clicking element
+2026-08-13 10:10:12 [INFO] Entering signup details for sanketshevale111@gmail.com
+2026-08-13 10:10:12 [INFO] Clicking Signup button

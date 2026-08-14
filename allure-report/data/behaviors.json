@@ -1,1 +1,348 @@
-{"uid":"b1a8273437954620fa374b796ffaacdd","name":"behaviors","children":[{"name":"get started link","uid":"3294191959b37598","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368101030,"stop":1784368105717,"duration":4687},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]},{"name":"has title","uid":"9b8d2580d9249beb","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368101033,"stop":1784368105204,"duration":4171},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]},{"name":"Login User with Incorrect Email and Password","uid":"2ba6b9f3595c7fe4","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368101064,"stop":1784368110033,"duration":8969},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]},{"name":"Login User with Correct Email and Password","uid":"d6e844cfd2ec69a1","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368101067,"stop":1784368112761,"duration":11694},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]},{"name":"Register User - Step 1 to Step 7","uid":"d2a7fbd49f8c1bb3","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368108373,"stop":1784368121229,"duration":12856},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["chromium"],"tags":[]},{"name":"has title","uid":"db4e0f890bc3b4d7","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368110448,"stop":1784368116742,"duration":6294},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["firefox"],"tags":[]},{"name":"get started link","uid":"d80603eb61e06a30","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368115090,"stop":1784368121466,"duration":6376},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["firefox"],"tags":[]},{"name":"Login User with Correct Email and Password","uid":"a47e133963eb3619","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368116895,"stop":1784368133914,"duration":17019},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["firefox"],"tags":[]},{"name":"Login User with Incorrect Email and Password","uid":"8ec5f861d2c36006","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368117921,"stop":1784368129899,"duration":11978},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["firefox"],"tags":[]},{"name":"Register User - Step 1 to Step 7","uid":"8f7aaae41ad37924","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368118396,"stop":1784368139059,"duration":20663},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["firefox"],"tags":[]},{"name":"has title","uid":"91f02837012e4fb5","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368129771,"stop":1784368133340,"duration":3569},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["webkit"],"tags":[]},{"name":"Login User with Incorrect Email and Password","uid":"750d21b275defa14","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368133751,"stop":1784368141302,"duration":7551},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["webkit"],"tags":[]},{"name":"Login User with Correct Email and Password","uid":"6d078ed7aef3100d","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368134697,"stop":1784368147456,"duration":12759},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["webkit"],"tags":[]},{"name":"get started link","uid":"1f99a1cfbe2637f1","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368136457,"stop":1784368139249,"duration":2792},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["webkit"],"tags":[]},{"name":"Register User - Step 1 to Step 7","uid":"6dd58e4257f6b49f","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784368139231,"stop":1784368155307,"duration":16076},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":0,"retriesStatusChange":false,"parameters":["webkit"],"tags":[]},{"name":"Logout User","uid":"caf2f6761fc31981","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784385153494,"stop":1784385171121,"duration":17627},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":["firefox"],"tags":[]},{"name":"Logout User","uid":"756656ac9e80fbbb","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784385153576,"stop":1784385165091,"duration":11515},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":["chromium"],"tags":[]},{"name":"Logout User","uid":"554ba9d668755549","parentUid":"b1a8273437954620fa374b796ffaacdd","status":"passed","time":{"start":1784385153598,"stop":1784385168243,"duration":14645},"flaky":false,"newFailed":false,"newPassed":false,"newBroken":false,"retriesCount":1,"retriesStatusChange":true,"parameters":["webkit"],"tags":[]}]}
+{
+  "uid": "b1a8273437954620fa374b796ffaacdd",
+  "name": "behaviors",
+  "children": [
+    {
+      "name": "get started link",
+      "uid": "3294191959b37598",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368101030,
+        "stop": 1784368105717,
+        "duration": 4687
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["chromium"],
+      "tags": []
+    },
+    {
+      "name": "has title",
+      "uid": "9b8d2580d9249beb",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368101033,
+        "stop": 1784368105204,
+        "duration": 4171
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["chromium"],
+      "tags": []
+    },
+    {
+      "name": "Login User with Incorrect Email and Password",
+      "uid": "2ba6b9f3595c7fe4",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368101064,
+        "stop": 1784368110033,
+        "duration": 8969
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["chromium"],
+      "tags": []
+    },
+    {
+      "name": "Login User with Correct Email and Password",
+      "uid": "d6e844cfd2ec69a1",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368101067,
+        "stop": 1784368112761,
+        "duration": 11694
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["chromium"],
+      "tags": []
+    },
+    {
+      "name": "Register User - Step 1 to Step 7",
+      "uid": "d2a7fbd49f8c1bb3",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368108373,
+        "stop": 1784368121229,
+        "duration": 12856
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["chromium"],
+      "tags": []
+    },
+    {
+      "name": "has title",
+      "uid": "db4e0f890bc3b4d7",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368110448,
+        "stop": 1784368116742,
+        "duration": 6294
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["firefox"],
+      "tags": []
+    },
+    {
+      "name": "get started link",
+      "uid": "d80603eb61e06a30",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368115090,
+        "stop": 1784368121466,
+        "duration": 6376
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["firefox"],
+      "tags": []
+    },
+    {
+      "name": "Login User with Correct Email and Password",
+      "uid": "a47e133963eb3619",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368116895,
+        "stop": 1784368133914,
+        "duration": 17019
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["firefox"],
+      "tags": []
+    },
+    {
+      "name": "Login User with Incorrect Email and Password",
+      "uid": "8ec5f861d2c36006",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368117921,
+        "stop": 1784368129899,
+        "duration": 11978
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["firefox"],
+      "tags": []
+    },
+    {
+      "name": "Register User - Step 1 to Step 7",
+      "uid": "8f7aaae41ad37924",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368118396,
+        "stop": 1784368139059,
+        "duration": 20663
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["firefox"],
+      "tags": []
+    },
+    {
+      "name": "has title",
+      "uid": "91f02837012e4fb5",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368129771,
+        "stop": 1784368133340,
+        "duration": 3569
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["webkit"],
+      "tags": []
+    },
+    {
+      "name": "Login User with Incorrect Email and Password",
+      "uid": "750d21b275defa14",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368133751,
+        "stop": 1784368141302,
+        "duration": 7551
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["webkit"],
+      "tags": []
+    },
+    {
+      "name": "Login User with Correct Email and Password",
+      "uid": "6d078ed7aef3100d",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368134697,
+        "stop": 1784368147456,
+        "duration": 12759
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["webkit"],
+      "tags": []
+    },
+    {
+      "name": "get started link",
+      "uid": "1f99a1cfbe2637f1",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368136457,
+        "stop": 1784368139249,
+        "duration": 2792
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["webkit"],
+      "tags": []
+    },
+    {
+      "name": "Register User - Step 1 to Step 7",
+      "uid": "6dd58e4257f6b49f",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784368139231,
+        "stop": 1784368155307,
+        "duration": 16076
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 0,
+      "retriesStatusChange": false,
+      "parameters": ["webkit"],
+      "tags": []
+    },
+    {
+      "name": "Logout User",
+      "uid": "caf2f6761fc31981",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784385153494,
+        "stop": 1784385171121,
+        "duration": 17627
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 1,
+      "retriesStatusChange": true,
+      "parameters": ["firefox"],
+      "tags": []
+    },
+    {
+      "name": "Logout User",
+      "uid": "756656ac9e80fbbb",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784385153576,
+        "stop": 1784385165091,
+        "duration": 11515
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 1,
+      "retriesStatusChange": true,
+      "parameters": ["chromium"],
+      "tags": []
+    },
+    {
+      "name": "Logout User",
+      "uid": "554ba9d668755549",
+      "parentUid": "b1a8273437954620fa374b796ffaacdd",
+      "status": "passed",
+      "time": {
+        "start": 1784385153598,
+        "stop": 1784385168243,
+        "duration": 14645
+      },
+      "flaky": false,
+      "newFailed": false,
+      "newPassed": false,
+      "newBroken": false,
+      "retriesCount": 1,
+      "retriesStatusChange": true,
+      "parameters": ["webkit"],
+      "tags": []
+    }
+  ]
+}

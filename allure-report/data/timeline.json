@@ -1,1 +1,285 @@
-{"name":"timeline","children":[{"name":"DESKTOP-MPECNHA","children":[{"name":"pid-13888-worker-0","children":[{"name":"has title","uid":"9b8d2580d9249beb","status":"passed","time":{"start":1784368101033,"stop":1784368105204,"duration":4171}},{"name":"Register User - Step 1 to Step 7","uid":"6dd58e4257f6b49f","status":"passed","time":{"start":1784368139231,"stop":1784368155307,"duration":16076}},{"name":"Login User with Correct Email and Password","uid":"a47e133963eb3619","status":"passed","time":{"start":1784368116895,"stop":1784368133914,"duration":17019}},{"name":"Register User - Step 1 to Step 7","uid":"d2a7fbd49f8c1bb3","status":"passed","time":{"start":1784368108373,"stop":1784368121229,"duration":12856}}],"uid":"64077110d93d81c5c29b19aa193d105b"},{"name":"pid-13888-worker-2","children":[{"name":"Login User with Correct Email and Password","uid":"6d078ed7aef3100d","status":"passed","time":{"start":1784368134697,"stop":1784368147456,"duration":12759}},{"name":"Login User with Correct Email and Password","uid":"d6e844cfd2ec69a1","status":"passed","time":{"start":1784368101067,"stop":1784368112761,"duration":11694}},{"name":"Login User with Incorrect Email and Password","uid":"8ec5f861d2c36006","status":"passed","time":{"start":1784368117921,"stop":1784368129899,"duration":11978}}],"uid":"5f977661f0542872f3d2657073af3889"},{"name":"pid-13888-worker-1","children":[{"name":"Register User - Step 1 to Step 7","uid":"8f7aaae41ad37924","status":"passed","time":{"start":1784368118396,"stop":1784368139059,"duration":20663}},{"name":"get started link","uid":"3294191959b37598","status":"passed","time":{"start":1784368101030,"stop":1784368105717,"duration":4687}},{"name":"has title","uid":"db4e0f890bc3b4d7","status":"passed","time":{"start":1784368110448,"stop":1784368116742,"duration":6294}},{"name":"get started link","uid":"1f99a1cfbe2637f1","status":"passed","time":{"start":1784368136457,"stop":1784368139249,"duration":2792}}],"uid":"2088ff572398303bf806cbeee707cf41"},{"name":"pid-13888-worker-3","children":[{"name":"Login User with Incorrect Email and Password","uid":"750d21b275defa14","status":"passed","time":{"start":1784368133751,"stop":1784368141302,"duration":7551}},{"name":"has title","uid":"91f02837012e4fb5","status":"passed","time":{"start":1784368129771,"stop":1784368133340,"duration":3569}},{"name":"get started link","uid":"d80603eb61e06a30","status":"passed","time":{"start":1784368115090,"stop":1784368121466,"duration":6376}},{"name":"Login User with Incorrect Email and Password","uid":"2ba6b9f3595c7fe4","status":"passed","time":{"start":1784368101064,"stop":1784368110033,"duration":8969}}],"uid":"247f9eb6ace2c9be13592f7b6a0f80f4"},{"name":"pid-1684-worker-1","children":[{"name":"Logout User","uid":"20e8cffe51985e4a","status":"failed","time":{"start":1784384893928,"stop":1784384911966,"duration":18038},"retry":true}],"uid":"869e4ec6d118ddf168e07a5c6b30121c"},{"name":"pid-7876-worker-0","children":[{"name":"Logout User","uid":"756656ac9e80fbbb","status":"passed","time":{"start":1784385153576,"stop":1784385165091,"duration":11515}}],"uid":"8dd90ba674a2bf74188cb82ffb837632"},{"name":"pid-1684-worker-2","children":[{"name":"Logout User","uid":"9c7b9aa249d7b0b3","status":"failed","time":{"start":1784384893925,"stop":1784384917959,"duration":24034},"retry":true}],"uid":"23aa54941cc8a712141268dbed6dcfdc"},{"name":"pid-7876-worker-1","children":[{"name":"Logout User","uid":"caf2f6761fc31981","status":"passed","time":{"start":1784385153494,"stop":1784385171121,"duration":17627}}],"uid":"8b82a5b21629c745f7742b3719e729da"},{"name":"pid-7876-worker-2","children":[{"name":"Logout User","uid":"554ba9d668755549","status":"passed","time":{"start":1784385153598,"stop":1784385168243,"duration":14645}}],"uid":"3cc6b3db6a4290e0208a191a3fd678bb"},{"name":"pid-1684-worker-0","children":[{"name":"Logout User","uid":"1ae9e20315607624","status":"failed","time":{"start":1784384893934,"stop":1784384906353,"duration":12419},"retry":true}],"uid":"daa6d86080447c2ce551e4be961f20ac"}],"uid":"768ac2ca290dbb99686b1a07334bff07"}],"uid":"ab17fc5a4eb3bca4b216b548c7f9fcbc"}
+{
+  "name": "timeline",
+  "children": [
+    {
+      "name": "DESKTOP-MPECNHA",
+      "children": [
+        {
+          "name": "pid-13888-worker-0",
+          "children": [
+            {
+              "name": "has title",
+              "uid": "9b8d2580d9249beb",
+              "status": "passed",
+              "time": {
+                "start": 1784368101033,
+                "stop": 1784368105204,
+                "duration": 4171
+              }
+            },
+            {
+              "name": "Register User - Step 1 to Step 7",
+              "uid": "6dd58e4257f6b49f",
+              "status": "passed",
+              "time": {
+                "start": 1784368139231,
+                "stop": 1784368155307,
+                "duration": 16076
+              }
+            },
+            {
+              "name": "Login User with Correct Email and Password",
+              "uid": "a47e133963eb3619",
+              "status": "passed",
+              "time": {
+                "start": 1784368116895,
+                "stop": 1784368133914,
+                "duration": 17019
+              }
+            },
+            {
+              "name": "Register User - Step 1 to Step 7",
+              "uid": "d2a7fbd49f8c1bb3",
+              "status": "passed",
+              "time": {
+                "start": 1784368108373,
+                "stop": 1784368121229,
+                "duration": 12856
+              }
+            }
+          ],
+          "uid": "64077110d93d81c5c29b19aa193d105b"
+        },
+        {
+          "name": "pid-13888-worker-2",
+          "children": [
+            {
+              "name": "Login User with Correct Email and Password",
+              "uid": "6d078ed7aef3100d",
+              "status": "passed",
+              "time": {
+                "start": 1784368134697,
+                "stop": 1784368147456,
+                "duration": 12759
+              }
+            },
+            {
+              "name": "Login User with Correct Email and Password",
+              "uid": "d6e844cfd2ec69a1",
+              "status": "passed",
+              "time": {
+                "start": 1784368101067,
+                "stop": 1784368112761,
+                "duration": 11694
+              }
+            },
+            {
+              "name": "Login User with Incorrect Email and Password",
+              "uid": "8ec5f861d2c36006",
+              "status": "passed",
+              "time": {
+                "start": 1784368117921,
+                "stop": 1784368129899,
+                "duration": 11978
+              }
+            }
+          ],
+          "uid": "5f977661f0542872f3d2657073af3889"
+        },
+        {
+          "name": "pid-13888-worker-1",
+          "children": [
+            {
+              "name": "Register User - Step 1 to Step 7",
+              "uid": "8f7aaae41ad37924",
+              "status": "passed",
+              "time": {
+                "start": 1784368118396,
+                "stop": 1784368139059,
+                "duration": 20663
+              }
+            },
+            {
+              "name": "get started link",
+              "uid": "3294191959b37598",
+              "status": "passed",
+              "time": {
+                "start": 1784368101030,
+                "stop": 1784368105717,
+                "duration": 4687
+              }
+            },
+            {
+              "name": "has title",
+              "uid": "db4e0f890bc3b4d7",
+              "status": "passed",
+              "time": {
+                "start": 1784368110448,
+                "stop": 1784368116742,
+                "duration": 6294
+              }
+            },
+            {
+              "name": "get started link",
+              "uid": "1f99a1cfbe2637f1",
+              "status": "passed",
+              "time": {
+                "start": 1784368136457,
+                "stop": 1784368139249,
+                "duration": 2792
+              }
+            }
+          ],
+          "uid": "2088ff572398303bf806cbeee707cf41"
+        },
+        {
+          "name": "pid-13888-worker-3",
+          "children": [
+            {
+              "name": "Login User with Incorrect Email and Password",
+              "uid": "750d21b275defa14",
+              "status": "passed",
+              "time": {
+                "start": 1784368133751,
+                "stop": 1784368141302,
+                "duration": 7551
+              }
+            },
+            {
+              "name": "has title",
+              "uid": "91f02837012e4fb5",
+              "status": "passed",
+              "time": {
+                "start": 1784368129771,
+                "stop": 1784368133340,
+                "duration": 3569
+              }
+            },
+            {
+              "name": "get started link",
+              "uid": "d80603eb61e06a30",
+              "status": "passed",
+              "time": {
+                "start": 1784368115090,
+                "stop": 1784368121466,
+                "duration": 6376
+              }
+            },
+            {
+              "name": "Login User with Incorrect Email and Password",
+              "uid": "2ba6b9f3595c7fe4",
+              "status": "passed",
+              "time": {
+                "start": 1784368101064,
+                "stop": 1784368110033,
+                "duration": 8969
+              }
+            }
+          ],
+          "uid": "247f9eb6ace2c9be13592f7b6a0f80f4"
+        },
+        {
+          "name": "pid-1684-worker-1",
+          "children": [
+            {
+              "name": "Logout User",
+              "uid": "20e8cffe51985e4a",
+              "status": "failed",
+              "time": {
+                "start": 1784384893928,
+                "stop": 1784384911966,
+                "duration": 18038
+              },
+              "retry": true
+            }
+          ],
+          "uid": "869e4ec6d118ddf168e07a5c6b30121c"
+        },
+        {
+          "name": "pid-7876-worker-0",
+          "children": [
+            {
+              "name": "Logout User",
+              "uid": "756656ac9e80fbbb",
+              "status": "passed",
+              "time": {
+                "start": 1784385153576,
+                "stop": 1784385165091,
+                "duration": 11515
+              }
+            }
+          ],
+          "uid": "8dd90ba674a2bf74188cb82ffb837632"
+        },
+        {
+          "name": "pid-1684-worker-2",
+          "children": [
+            {
+              "name": "Logout User",
+              "uid": "9c7b9aa249d7b0b3",
+              "status": "failed",
+              "time": {
+                "start": 1784384893925,
+                "stop": 1784384917959,
+                "duration": 24034
+              },
+              "retry": true
+            }
+          ],
+          "uid": "23aa54941cc8a712141268dbed6dcfdc"
+        },
+        {
+          "name": "pid-7876-worker-1",
+          "children": [
+            {
+              "name": "Logout User",
+              "uid": "caf2f6761fc31981",
+              "status": "passed",
+              "time": {
+                "start": 1784385153494,
+                "stop": 1784385171121,
+                "duration": 17627
+              }
+            }
+          ],
+          "uid": "8b82a5b21629c745f7742b3719e729da"
+        },
+        {
+          "name": "pid-7876-worker-2",
+          "children": [
+            {
+              "name": "Logout User",
+              "uid": "554ba9d668755549",
+              "status": "passed",
+              "time": {
+                "start": 1784385153598,
+                "stop": 1784385168243,
+                "duration": 14645
+              }
+            }
+          ],
+          "uid": "3cc6b3db6a4290e0208a191a3fd678bb"
+        },
+        {
+          "name": "pid-1684-worker-0",
+          "children": [
+            {
+              "name": "Logout User",
+              "uid": "1ae9e20315607624",
+              "status": "failed",
+              "time": {
+                "start": 1784384893934,
+                "stop": 1784384906353,
+                "duration": 12419
+              },
+              "retry": true
+            }
+          ],
+          "uid": "daa6d86080447c2ce551e4be961f20ac"
+        }
+      ],
+      "uid": "768ac2ca290dbb99686b1a07334bff07"
+    }
+  ],
+  "uid": "ab17fc5a4eb3bca4b216b548c7f9fcbc"
+}

@@ -1,1 +1,98 @@
-{"uuid":"ce1a9391-4b42-4ca4-8437-3dda4122999d","name":"Verify Login API","historyId":"44a6bbf9c2503d9811dd1894c435ea93:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Before Hooks","start":1786523849514,"uuid":"46029c08-8da2-43ac-b84c-aabbc2623c3e","stop":1786523849530},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786523849538,"name":"Create request context","uuid":"13c68662-d796-438b-adc4-800bbe1bd9c8","stop":1786523849542},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786523849549,"name":"POST \"/api/verifyLogin\"","uuid":"1d38383b-965c-4c11-9441-f85142f68a3e","stop":1786523851172},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786523851177,"name":"Expect \"toBe\"","uuid":"28157db8-dce9-4cb2-8161-8141704a258d","stop":1786523851178},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"After Hooks","start":1786523851184,"uuid":"6fe03613-960a-44dd-af88-be12b174bebd","stop":1786523851196}],"attachments":[{"name":"stdout","source":"f166bc40-5da2-4aac-89c1-e2b94608461a-attachment.txt","type":"text/plain"}],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"automationexercise.api.loginApi.spec.ts"},{"name":"_fallbackTestCaseId","value":"969df2f4d9b5f1ffe3e0c9f369d145bd"},{"name":"titlePath","value":" > chromium > api\\loginApi.spec.ts"},{"name":"host","value":"DESKTOP-MPECNHA"},{"name":"thread","value":"pid-7648-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"api\\loginApi.spec.ts"}],"links":[],"start":1786523849472,"testCaseId":"44a6bbf9c2503d9811dd1894c435ea93","fullName":"api/loginApi.spec.ts:5:5","titlePath":["automationexercise","api","loginApi.spec.ts"],"stop":1786523851130}
+{
+  "uuid": "ce1a9391-4b42-4ca4-8437-3dda4122999d",
+  "name": "Verify Login API",
+  "historyId": "44a6bbf9c2503d9811dd1894c435ea93:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1786523849514,
+      "uuid": "46029c08-8da2-43ac-b84c-aabbc2623c3e",
+      "stop": 1786523849530
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786523849538,
+      "name": "Create request context",
+      "uuid": "13c68662-d796-438b-adc4-800bbe1bd9c8",
+      "stop": 1786523849542
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786523849549,
+      "name": "POST \"/api/verifyLogin\"",
+      "uuid": "1d38383b-965c-4c11-9441-f85142f68a3e",
+      "stop": 1786523851172
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786523851177,
+      "name": "Expect \"toBe\"",
+      "uuid": "28157db8-dce9-4cb2-8161-8141704a258d",
+      "stop": 1786523851178
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1786523851184,
+      "uuid": "6fe03613-960a-44dd-af88-be12b174bebd",
+      "stop": 1786523851196
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "f166bc40-5da2-4aac-89c1-e2b94608461a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.api.loginApi.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "969df2f4d9b5f1ffe3e0c9f369d145bd"
+    },
+    { "name": "titlePath", "value": " > chromium > api\\loginApi.spec.ts" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-7648-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\loginApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1786523849472,
+  "testCaseId": "44a6bbf9c2503d9811dd1894c435ea93",
+  "fullName": "api/loginApi.spec.ts:5:5",
+  "titlePath": ["automationexercise", "api", "loginApi.spec.ts"],
+  "stop": 1786523851130
+}

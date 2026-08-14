@@ -1,1 +1,169 @@
-{"uuid":"a646f608-01f3-4041-92ee-0fd0140ebbb6","name":"has title","historyId":"cd10c99115657ec8338a2d2c48abcd7a:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1786524018235,"uuid":"3499f69e-6745-4725-8f91-b8ca0763480c","stop":1786524018256}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1786524018230,"uuid":"383072f5-d3e0-4c8b-9646-02c72a4841fb","stop":1786524018258},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1786524018263,"uuid":"fe545118-0813-4b7a-8bf5-e5f3b3455765","stop":1786524018659}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1786524018259,"uuid":"34c8c643-7b64-4f39-be70-62ceea5da510","stop":1786524018660}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1786524018199,"uuid":"77696853-ca6e-4e08-8a19-31f5c84a402b","stop":1786524018661},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786524018665,"name":"Navigate to \"/\"","uuid":"05216870-0b6d-47de-a921-0eb67150a8f3","stop":1786524019467},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786524019468,"name":"Expect \"toHaveTitle\"","uuid":"766475e7-b0f3-4b25-b952-72cf87e42c10","stop":1786524019513},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1786524019513,"uuid":"f85529dd-b914-40a3-8a66-46efb5b82306","stop":1786524019514},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1786524019793,"uuid":"7319a879-dcaa-45cd-be6d-1d024f85bae2","stop":1786524019937}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1786524019514,"uuid":"cceff08d-5373-4f47-8c92-21351a7d3f3f","stop":1786524019937}],"attachments":[],"parameters":[],"name":"After Hooks","start":1786524019513,"uuid":"c9588c09-6e20-4ded-9e53-4ceb233c99ca","stop":1786524019956}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"automationexercise.example.spec.ts"},{"name":"_fallbackTestCaseId","value":"3a2a809b453af4fd564578d1a27f3e45"},{"name":"titlePath","value":" > chromium > example.spec.ts"},{"name":"host","value":"DESKTOP-MPECNHA"},{"name":"thread","value":"pid-26664-worker-0"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"example.spec.ts"}],"links":[],"start":1786524018242,"testCaseId":"cd10c99115657ec8338a2d2c48abcd7a","fullName":"example.spec.ts:3:5","titlePath":["automationexercise","example.spec.ts"],"stop":1786524019950}
+{
+  "uuid": "a646f608-01f3-4041-92ee-0fd0140ebbb6",
+  "name": "has title",
+  "historyId": "cd10c99115657ec8338a2d2c48abcd7a:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1786524018235,
+              "uuid": "3499f69e-6745-4725-8f91-b8ca0763480c",
+              "stop": 1786524018256
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1786524018230,
+          "uuid": "383072f5-d3e0-4c8b-9646-02c72a4841fb",
+          "stop": 1786524018258
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1786524018263,
+              "uuid": "fe545118-0813-4b7a-8bf5-e5f3b3455765",
+              "stop": 1786524018659
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1786524018259,
+          "uuid": "34c8c643-7b64-4f39-be70-62ceea5da510",
+          "stop": 1786524018660
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1786524018199,
+      "uuid": "77696853-ca6e-4e08-8a19-31f5c84a402b",
+      "stop": 1786524018661
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786524018665,
+      "name": "Navigate to \"/\"",
+      "uuid": "05216870-0b6d-47de-a921-0eb67150a8f3",
+      "stop": 1786524019467
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786524019468,
+      "name": "Expect \"toHaveTitle\"",
+      "uuid": "766475e7-b0f3-4b25-b952-72cf87e42c10",
+      "stop": 1786524019513
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1786524019513,
+          "uuid": "f85529dd-b914-40a3-8a66-46efb5b82306",
+          "stop": 1786524019514
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1786524019793,
+              "uuid": "7319a879-dcaa-45cd-be6d-1d024f85bae2",
+              "stop": 1786524019937
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1786524019514,
+          "uuid": "cceff08d-5373-4f47-8c92-21351a7d3f3f",
+          "stop": 1786524019937
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1786524019513,
+      "uuid": "c9588c09-6e20-4ded-9e53-4ceb233c99ca",
+      "stop": 1786524019956
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.example.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "3a2a809b453af4fd564578d1a27f3e45"
+    },
+    { "name": "titlePath", "value": " > chromium > example.spec.ts" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-26664-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1786524018242,
+  "testCaseId": "cd10c99115657ec8338a2d2c48abcd7a",
+  "fullName": "example.spec.ts:3:5",
+  "titlePath": ["automationexercise", "example.spec.ts"],
+  "stop": 1786524019950
+}

@@ -8,12 +8,12 @@
     "report": "playwright show-report"
   },
   "devDependencies": {
-    "@playwright/test": "^1.61.1",
+    "@playwright/test": "^1.62.1",
     "@types/node": "^26.1.2",
     "allure-playwright": "^3.10.2",
     "husky": "^9.1.7",
     "lint-staged": "^16.4.0",
-    "prettier": "^3.9.5",
+    "prettier": "^3.9.6",
     "typescript": "^7.0.2"
   },
   "dependencies": {

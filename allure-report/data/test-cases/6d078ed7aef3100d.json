@@ -1,1 +1,401 @@
-{"uid":"6d078ed7aef3100d","name":"Login User with Correct Email and Password","fullName":"login.spec.ts:6:5","historyId":"d950a93c842b9f1bf9774df98aff4490:84e28e814b821ed013329cc8dbc467e0","time":{"start":1784368134697,"stop":1784368147456,"duration":12759},"status":"passed","flaky":false,"newFailed":false,"newBroken":false,"newPassed":false,"retriesCount":0,"retriesStatusChange":false,"beforeStages":[],"testStage":{"status":"passed","steps":[{"name":"Before Hooks","time":{"start":1784368134801,"stop":1784368135220,"duration":419},"status":"passed","steps":[{"name":"Fixture \"browser\"","time":{"start":1784368134851,"stop":1784368134904,"duration":53},"status":"passed","steps":[{"name":"Launch browser","time":{"start":1784368134856,"stop":1784368134904,"duration":48},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":1,"attachmentStep":false},{"name":"Fixture \"context\"","time":{"start":1784368134907,"stop":1784368134937,"duration":30},"status":"passed","steps":[{"name":"Create context","time":{"start":1784368134910,"stop":1784368134935,"duration":25},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":1,"attachmentStep":false},{"name":"Fixture \"page\"","time":{"start":1784368134938,"stop":1784368135220,"duration":282},"status":"passed","steps":[{"name":"Create page","time":{"start":1784368134941,"stop":1784368135220,"duration":279},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":1,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":6,"attachmentStep":false},{"name":"Navigate to \"/\"","time":{"start":1784368135228,"stop":1784368141068,"duration":5840},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"Expect \"toBeVisible\" locator('img[alt=\"Website for automation practice\"]')","time":{"start":1784368141085,"stop":1784368141159,"duration":74},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"Click getByRole('link', { name: 'Signup / Login' })","time":{"start":1784368141163,"stop":1784368142523,"duration":1360},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"Expect \"toBeVisible\" getByRole('heading', { name: 'Login to your account' })","time":{"start":1784368142529,"stop":1784368142572,"duration":43},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"Fill \"sanketshevale111@gmail.com\" locator('[data-qa=\"login-email\"]')","time":{"start":1784368142575,"stop":1784368142705,"duration":130},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"Fill \"Sanket@123\" locator('[data-qa=\"login-password\"]')","time":{"start":1784368142710,"stop":1784368142750,"duration":40},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"Click locator('[data-qa=\"login-button\"]')","time":{"start":1784368142752,"stop":1784368144033,"duration":1281},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"Wait for load state \"networkidle\"","time":{"start":1784368144036,"stop":1784368147609,"duration":3573},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"Expect \"toBeVisible\" getByText('Logged in as')","time":{"start":1784368147610,"stop":1784368147648,"duration":38},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"After Hooks","time":{"start":1784368147648,"stop":1784368147681,"duration":33},"status":"passed","steps":[{"name":"Fixture \"page\"","time":{"start":1784368147650,"stop":1784368147650,"duration":0},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false},{"name":"Fixture \"context\"","time":{"start":1784368147650,"stop":1784368147664,"duration":14},"status":"passed","steps":[{"name":"Close context","time":{"start":1784368147657,"stop":1784368147663,"duration":6},"status":"passed","steps":[],"attachments":[],"parameters":[],"hasContent":false,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":0,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":1,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":3,"attachmentStep":false}],"attachments":[],"parameters":[],"hasContent":true,"shouldDisplayMessage":false,"attachmentsCount":0,"stepsCount":20,"attachmentStep":false},"afterStages":[],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"automationexercise.login.spec.ts"},{"name":"_fallbackTestCaseId","value":"25d0633d04dd51a6a3a0de0c990e3fda"},{"name":"titlePath","value":" > webkit > login.spec.ts"},{"name":"host","value":"DESKTOP-MPECNHA"},{"name":"thread","value":"pid-13888-worker-2"},{"name":"parentSuite","value":"webkit"},{"name":"suite","value":"login.spec.ts"},{"name":"resultFormat","value":"allure2"}],"parameters":[{"name":"Project","value":"webkit"}],"links":[],"hidden":false,"retry":false,"extra":{"severity":"normal","retries":[],"categories":[],"tags":[]},"source":"6d078ed7aef3100d.json","parameterValues":["webkit"]}
+{
+  "uid": "6d078ed7aef3100d",
+  "name": "Login User with Correct Email and Password",
+  "fullName": "login.spec.ts:6:5",
+  "historyId": "d950a93c842b9f1bf9774df98aff4490:84e28e814b821ed013329cc8dbc467e0",
+  "time": { "start": 1784368134697, "stop": 1784368147456, "duration": 12759 },
+  "status": "passed",
+  "flaky": false,
+  "newFailed": false,
+  "newBroken": false,
+  "newPassed": false,
+  "retriesCount": 0,
+  "retriesStatusChange": false,
+  "beforeStages": [],
+  "testStage": {
+    "status": "passed",
+    "steps": [
+      {
+        "name": "Before Hooks",
+        "time": {
+          "start": 1784368134801,
+          "stop": 1784368135220,
+          "duration": 419
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "Fixture \"browser\"",
+            "time": {
+              "start": 1784368134851,
+              "stop": 1784368134904,
+              "duration": 53
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "Launch browser",
+                "time": {
+                  "start": 1784368134856,
+                  "stop": 1784368134904,
+                  "duration": 48
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "attachmentsCount": 0,
+                "stepsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "shouldDisplayMessage": false,
+            "attachmentsCount": 0,
+            "stepsCount": 1,
+            "attachmentStep": false
+          },
+          {
+            "name": "Fixture \"context\"",
+            "time": {
+              "start": 1784368134907,
+              "stop": 1784368134937,
+              "duration": 30
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "Create context",
+                "time": {
+                  "start": 1784368134910,
+                  "stop": 1784368134935,
+                  "duration": 25
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "attachmentsCount": 0,
+                "stepsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "shouldDisplayMessage": false,
+            "attachmentsCount": 0,
+            "stepsCount": 1,
+            "attachmentStep": false
+          },
+          {
+            "name": "Fixture \"page\"",
+            "time": {
+              "start": 1784368134938,
+              "stop": 1784368135220,
+              "duration": 282
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "Create page",
+                "time": {
+                  "start": 1784368134941,
+                  "stop": 1784368135220,
+                  "duration": 279
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "attachmentsCount": 0,
+                "stepsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "shouldDisplayMessage": false,
+            "attachmentsCount": 0,
+            "stepsCount": 1,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 6,
+        "attachmentStep": false
+      },
+      {
+        "name": "Navigate to \"/\"",
+        "time": {
+          "start": 1784368135228,
+          "stop": 1784368141068,
+          "duration": 5840
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "Expect \"toBeVisible\" locator('img[alt=\"Website for automation practice\"]')",
+        "time": {
+          "start": 1784368141085,
+          "stop": 1784368141159,
+          "duration": 74
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "Click getByRole('link', { name: 'Signup / Login' })",
+        "time": {
+          "start": 1784368141163,
+          "stop": 1784368142523,
+          "duration": 1360
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "Expect \"toBeVisible\" getByRole('heading', { name: 'Login to your account' })",
+        "time": {
+          "start": 1784368142529,
+          "stop": 1784368142572,
+          "duration": 43
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "Fill \"sanketshevale111@gmail.com\" locator('[data-qa=\"login-email\"]')",
+        "time": {
+          "start": 1784368142575,
+          "stop": 1784368142705,
+          "duration": 130
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "Fill \"Sanket@123\" locator('[data-qa=\"login-password\"]')",
+        "time": {
+          "start": 1784368142710,
+          "stop": 1784368142750,
+          "duration": 40
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "Click locator('[data-qa=\"login-button\"]')",
+        "time": {
+          "start": 1784368142752,
+          "stop": 1784368144033,
+          "duration": 1281
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "Wait for load state \"networkidle\"",
+        "time": {
+          "start": 1784368144036,
+          "stop": 1784368147609,
+          "duration": 3573
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "Expect \"toBeVisible\" getByText('Logged in as')",
+        "time": {
+          "start": 1784368147610,
+          "stop": 1784368147648,
+          "duration": 38
+        },
+        "status": "passed",
+        "steps": [],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": false,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 0,
+        "attachmentStep": false
+      },
+      {
+        "name": "After Hooks",
+        "time": {
+          "start": 1784368147648,
+          "stop": 1784368147681,
+          "duration": 33
+        },
+        "status": "passed",
+        "steps": [
+          {
+            "name": "Fixture \"page\"",
+            "time": {
+              "start": 1784368147650,
+              "stop": 1784368147650,
+              "duration": 0
+            },
+            "status": "passed",
+            "steps": [],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": false,
+            "shouldDisplayMessage": false,
+            "attachmentsCount": 0,
+            "stepsCount": 0,
+            "attachmentStep": false
+          },
+          {
+            "name": "Fixture \"context\"",
+            "time": {
+              "start": 1784368147650,
+              "stop": 1784368147664,
+              "duration": 14
+            },
+            "status": "passed",
+            "steps": [
+              {
+                "name": "Close context",
+                "time": {
+                  "start": 1784368147657,
+                  "stop": 1784368147663,
+                  "duration": 6
+                },
+                "status": "passed",
+                "steps": [],
+                "attachments": [],
+                "parameters": [],
+                "hasContent": false,
+                "shouldDisplayMessage": false,
+                "attachmentsCount": 0,
+                "stepsCount": 0,
+                "attachmentStep": false
+              }
+            ],
+            "attachments": [],
+            "parameters": [],
+            "hasContent": true,
+            "shouldDisplayMessage": false,
+            "attachmentsCount": 0,
+            "stepsCount": 1,
+            "attachmentStep": false
+          }
+        ],
+        "attachments": [],
+        "parameters": [],
+        "hasContent": true,
+        "shouldDisplayMessage": false,
+        "attachmentsCount": 0,
+        "stepsCount": 3,
+        "attachmentStep": false
+      }
+    ],
+    "attachments": [],
+    "parameters": [],
+    "hasContent": true,
+    "shouldDisplayMessage": false,
+    "attachmentsCount": 0,
+    "stepsCount": 20,
+    "attachmentStep": false
+  },
+  "afterStages": [],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.login.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "25d0633d04dd51a6a3a0de0c990e3fda"
+    },
+    { "name": "titlePath", "value": " > webkit > login.spec.ts" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-13888-worker-2" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "login.spec.ts" },
+    { "name": "resultFormat", "value": "allure2" }
+  ],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "links": [],
+  "hidden": false,
+  "retry": false,
+  "extra": {
+    "severity": "normal",
+    "retries": [],
+    "categories": [],
+    "tags": []
+  },
+  "source": "6d078ed7aef3100d.json",
+  "parameterValues": ["webkit"]
+}

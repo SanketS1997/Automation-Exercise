@@ -1,27 +1,119 @@
-name: Playwright Tests
+name: Playwright CI
+
+# This workflow runs on every push to main and on every pull request.
+# It ensures the application is validated in a clean Linux environment before merge.
 on:
   push:
-    branches: [ main, master ]
+    branches:
+      - main
   pull_request:
-    branches: [ main, master ]
+  workflow_dispatch:
+
+# These variables keep CI behavior consistent across jobs and browser matrix entries.
+# Setting CI=true is important because Playwright will use safer defaults for pipelines.
+env:
+  CI: true
+  PLAYWRIGHT_HTML_REPORT: playwright-report
+
+permissions:
+  contents: read
+
 jobs:
-  test:
-    timeout-minutes: 60
+  # Matrix strategy runs the same Playwright suite across Chromium, Firefox, and WebKit.
+  # Each browser runs in parallel in its own job, which gives faster validation coverage.
+  playwright-tests:
+    name: Playwright (${{ matrix.project }})
     runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    strategy:
+      # Do not cancel the remaining browser jobs if one fails.
+      # This makes the CI output complete and easier to debug.
+      fail-fast: false
+      matrix:
+        project: [chromium, firefox, webkit]
+
     steps:
-    - uses: actions/checkout@v4
-    - uses: actions/setup-node@v4
-      with:
-        node-version: lts/*
-    - name: Install dependencies
-      run: npm ci
-    - name: Install Playwright Browsers
-      run: npx playwright install --with-deps
-    - name: Run Playwright tests
-      run: npx playwright test
-    - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
-      with:
-        name: playwright-report
-        path: playwright-report/
-        retention-days: 30
+      # Step 1: Check out the repository code so the workflow can run tests in the project.
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Install Node.js and cache npm dependencies for faster subsequent runs.
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      # Step 3: Install the exact project dependencies from package-lock.json.
+      - name: Install dependencies
+        run: npm ci
+
+      # Step 4: Install the browser binary and Linux libraries required for the selected browser.
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps ${{ matrix.project }}
+
+      # Step 5: Run only the selected browser project to keep the matrix jobs isolated.
+      # We also generate HTML and JUnit outputs for artifacts and summary reporting.
+      - name: Run Playwright tests
+        env:
+          PLAYWRIGHT_JUNIT_OUTPUT_NAME: test-results/${{ matrix.project }}.xml
+        run: |
+          npx playwright test \
+            --project=${{ matrix.project }} \
+            --reporter=line,junit,html
+
+      # Step 6: Upload the generated HTML report as a workflow artifact.
+      # This allows developers to inspect failures without needing to rerun locally.
+      - name: Upload Playwright HTML report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report-${{ matrix.project }}
+          path: playwright-report
+          if-no-files-found: warn
+          retention-days: 7
+
+      # Step 7: Publish a readable summary in the GitHub Actions UI.
+      # This makes it easier to review results directly on the PR or Actions tab.
+      - name: Publish test summary
+        if: always()
+        shell: bash
+        env:
+          PROJECT: ${{ matrix.project }}
+        run: |
+          echo "## Playwright Summary for ${PROJECT}" >> "$GITHUB_STEP_SUMMARY"
+
+          JUNIT_FILE="./test-results/${PROJECT}.xml"
+
+          if [ -f "$JUNIT_FILE" ]; then
+            python - <<'PY'
+import os
+import xml.etree.ElementTree as ET
+
+project = os.environ["PROJECT"]
+path = os.path.join("./test-results", f"{project}.xml")
+
+if not os.path.exists(path):
+    print(f"No JUnit report generated for {project}")
+    raise SystemExit(0)
+
+root = ET.parse(path).getroot()
+
+tests = int(root.attrib.get("tests", "0"))
+failures = int(root.attrib.get("failures", "0"))
+skipped = int(root.attrib.get("skipped", "0"))
+errors = int(root.attrib.get("errors", "0"))
+passed = tests - failures - skipped - errors
+
+with open(os.environ["GITHUB_STEP_SUMMARY"], "a", encoding="utf-8") as summary:
+    summary.write(f"- Browser: {project}\n")
+    summary.write(f"- Total: {tests}\n")
+    summary.write(f"- Passed: {passed}\n")
+    summary.write(f"- Failed: {failures}\n")
+    summary.write(f"- Errors: {errors}\n")
+    summary.write(f"- Skipped: {skipped}\n")
+PY
+          else
+            echo "- No JUnit report was generated for this browser." >> "$GITHUB_STEP_SUMMARY"
+          fi
