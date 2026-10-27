@@ -1,18 +1,22 @@
 import { test } from "../src/fixtures/pageFixture";
 import loginData from "../src/data/loginData.json";
 
-test("Login User with Valid Credentials", async ({ homePage, loginPage }) => {
-  await homePage.navigate();
+test(
+  "Login User with Valid Credentials",
+  { tag: ["@regression", "@smoke"] },
+  async ({ homePage, loginPage }) => {
+    await homePage.navigate();
 
-  await homePage.verifyHomePageVisible();
+    await homePage.verifyHomePageVisible();
 
-  await homePage.clickSignupLogin();
+    await homePage.clickSignupLogin();
 
-  await loginPage.verifyLoginHeadingVisible();
+    await loginPage.verifyLoginHeadingVisible();
 
-  await loginPage.enterLoginCredentials(loginData.validUser);
+    await loginPage.enterLoginCredentials(loginData.validUser);
 
-  await loginPage.clickLogin();
+    await loginPage.clickLogin();
 
-  await loginPage.verifyLoggedInUser();
-});
+    await loginPage.verifyLoggedInUser();
+  },
+);

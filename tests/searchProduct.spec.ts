@@ -1,30 +1,34 @@
 import { test } from "../src/fixtures/pageFixture";
 import productData from "../src/data/productData.json";
 
-test("Search Product", async ({ homePage, productsPage }) => {
-  // Step 1-3
+test(
+  "Search Product",
+  { tag: ["@regression", "@sanity"] },
+  async ({ homePage, productsPage }) => {
+    // Step 1-3
 
-  await homePage.navigate();
+    await homePage.navigate();
 
-  await homePage.verifyHomePageVisible();
+    await homePage.verifyHomePageVisible();
 
-  // Step 4
+    // Step 4
 
-  await productsPage.clickProducts();
+    await productsPage.clickProducts();
 
-  // Step 5
+    // Step 5
 
-  await productsPage.verifyAllProductsPage();
+    await productsPage.verifyAllProductsPage();
 
-  // Step 6
+    // Step 6
 
-  await productsPage.searchProduct(productData.searchProduct);
+    await productsPage.searchProduct(productData.searchProduct);
 
-  // Step 7
+    // Step 7
 
-  await productsPage.verifySearchedProductsHeading();
+    await productsPage.verifySearchedProductsHeading();
 
-  // Step 8
+    // Step 8
 
-  await productsPage.verifySearchResults();
-});
+    await productsPage.verifySearchResults();
+  },
+);

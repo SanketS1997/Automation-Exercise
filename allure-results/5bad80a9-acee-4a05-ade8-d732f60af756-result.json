@@ -1,0 +1,109 @@
+{
+  "uuid": "5bad80a9-acee-4a05-ade8-d732f60af756",
+  "name": "API 2: POST to All Products List should not be supported",
+  "historyId": "8fdc95ded992cf983a668676b6c18f11:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790916400101,
+      "uuid": "7903fa75-4469-41c1-88f5-be93276b29fb",
+      "stop": 1790916400118
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790916400119,
+      "name": "Create request context",
+      "uuid": "dcc2d722-b806-4317-af26-79466ce9b6eb",
+      "stop": 1790916400129
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790916400133,
+      "name": "POST \"/api/productsList\"",
+      "uuid": "16de4297-9e15-4912-a0c7-a13ece6ad120",
+      "stop": 1790916401368
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790916401369,
+      "name": "Expect \"toBe\"",
+      "uuid": "7a1c3301-1f26-41c6-a375-c27be4ab385b",
+      "stop": 1790916401371
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790916401372,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "bb80624d-a98f-4491-8ac0-b1a54b5e50cd",
+      "stop": 1790916401375
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790916401380,
+      "uuid": "39a0bbc1-8a73-48c4-ad95-764af412654b",
+      "stop": 1790916401401
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.productsApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "673525470e6e626999acd12c38a86102"
+    },
+    { "name": "titlePath", "value": " > chromium > api\\productsApi.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-4244-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\productsApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790916400102,
+  "testCaseId": "8fdc95ded992cf983a668676b6c18f11",
+  "fullName": "api/productsApi.spec.ts:7:5",
+  "titlePath": ["automationexercise", "api", "productsApi.spec.ts"],
+  "stop": 1790916401369
+}

@@ -1,0 +1,112 @@
+{
+  "uuid": "d2c03451-c38a-449f-8bdf-cbfd3fb55042",
+  "name": "API 8: POST to Verify Login without email returns a bad request",
+  "historyId": "16fea4b70a59d31e593263cde5990694:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790918132616,
+      "uuid": "96b23202-6c63-4fda-adb5-c4272e431659",
+      "stop": 1790918132651
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918132665,
+      "name": "Create request context",
+      "uuid": "71181183-3cd2-4394-9cf4-2365241e2601",
+      "stop": 1790918132686
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918132691,
+      "name": "POST \"/api/verifyLogin\"",
+      "uuid": "42dca612-c972-4d1c-a975-8f04b30d74ec",
+      "stop": 1790918134625
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918134641,
+      "name": "Expect \"toBe\"",
+      "uuid": "2863b77f-8dec-4be0-ae50-935f26b456b7",
+      "stop": 1790918134643
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918134651,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "c1b55225-2af5-4a51-8acb-c5baeeb9373e",
+      "stop": 1790918134655
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790918134665,
+      "uuid": "439643c1-eb19-4da5-aafc-31a8552563e9",
+      "stop": 1790918134690
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.verifyLoginApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "3c677a278d16c384fd2ed9e3bd15ba84"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\verifyLoginApi.spec.ts"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-6816-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\verifyLoginApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790918132540,
+  "testCaseId": "16fea4b70a59d31e593263cde5990694",
+  "fullName": "api/verifyLoginApi.spec.ts:33:5",
+  "titlePath": ["automationexercise", "api", "verifyLoginApi.spec.ts"],
+  "stop": 1790918134566
+}

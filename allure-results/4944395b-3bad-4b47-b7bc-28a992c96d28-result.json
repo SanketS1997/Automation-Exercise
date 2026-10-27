@@ -1,0 +1,77 @@
+{
+  "uuid": "4944395b-3bad-4b47-b7bc-28a992c96d28",
+  "name": "Verify Login API and use token if provided",
+  "historyId": "b5690e8a81abb2e428df334dbd95c9dd:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "skipped",
+  "statusDetails": { "message": "Run only in chromium" },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: Test is skipped: Run only in chromium",
+        "trace": "Error: Test is skipped: Run only in chromium\n    at C:\\Users\\91997\\AutomationExercise\\tests\\api\\loginApi.spec.ts:9:8"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: Test is skipped: Run only in chromium",
+            "trace": "Error: Test is skipped: Run only in chromium\n    at C:\\Users\\91997\\AutomationExercise\\tests\\api\\loginApi.spec.ts:9:8"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1788251757226,
+          "uuid": "90faef98-1cea-4e74-8bce-2eb71f97825a",
+          "stop": 1788251757264
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788251757223,
+      "uuid": "90568db1-1f52-41b9-93df-d77835a3342e",
+      "stop": 1788251757266
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788251757267,
+      "uuid": "be0f3e95-a85a-4038-81bd-16012e06746a",
+      "stop": 1788251757297
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.api.loginApi.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "41c8ea041f33766023b71b3851b179b2"
+    },
+    { "name": "titlePath", "value": " > firefox > api\\loginApi.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-16064-worker-0" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "api\\loginApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788251757175,
+  "testCaseId": "b5690e8a81abb2e428df334dbd95c9dd",
+  "fullName": "api/loginApi.spec.ts:12:5",
+  "titlePath": ["automationexercise", "api", "loginApi.spec.ts"],
+  "stop": 1788251757189
+}

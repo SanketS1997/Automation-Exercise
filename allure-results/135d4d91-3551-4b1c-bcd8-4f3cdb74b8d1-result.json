@@ -1,0 +1,139 @@
+{
+  "uuid": "135d4d91-3551-4b1c-bcd8-4f3cdb74b8d1",
+  "name": "API 10: POST to Verify Login with invalid details returns user not found",
+  "historyId": "572370c9d3e900f20c10ec36b6ba0ee0:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1790951184728,
+              "uuid": "c05ba719-b471-4226-a963-6570de67a4c2",
+              "stop": 1790951184729
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790951184727,
+          "uuid": "a8e2c873-cdb7-457d-b057-07381787ad33",
+          "stop": 1790951184729
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790951184720,
+      "uuid": "5036b2b4-6c43-4c54-8550-ed9f52884682",
+      "stop": 1790951184729
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951184730,
+      "name": "POST \"/api/verifyLogin\"",
+      "uuid": "1b5bb701-a408-43e6-8c70-05555f96ffee",
+      "stop": 1790951185093
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951185094,
+      "name": "Expect \"toBe\"",
+      "uuid": "df0ae28a-5e72-452b-9361-e03bb90a3eff",
+      "stop": 1790951185094
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951185095,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "4b910c9f-b975-4de7-ad22-16104ec80359",
+      "stop": 1790951185095
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790951185096,
+          "uuid": "6347c3aa-6256-48e9-94d6-1c77cc3743b8",
+          "stop": 1790951185098
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790951185096,
+      "uuid": "bc8683c6-ff56-47d1-95ea-a8a09bda477e",
+      "stop": 1790951185105
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.verifyLoginApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "28d524e49b3e1bf833231bdf10c7dc80"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\verifyLoginApi.spec.ts"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-4632-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\verifyLoginApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790951184727,
+  "testCaseId": "572370c9d3e900f20c10ec36b6ba0ee0",
+  "fullName": "api/verifyLoginApi.spec.ts:44:5",
+  "titlePath": ["automationexercise", "api", "verifyLoginApi.spec.ts"],
+  "stop": 1790951185098
+}

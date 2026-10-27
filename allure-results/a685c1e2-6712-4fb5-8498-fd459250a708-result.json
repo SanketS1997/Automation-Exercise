@@ -1,0 +1,112 @@
+{
+  "uuid": "a685c1e2-6712-4fb5-8498-fd459250a708",
+  "name": "API 11: POST to Create Account creates a user",
+  "historyId": "6f4ddee32b8b94808b3c1883dd934ef4:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790918193409,
+      "uuid": "c871c52a-ec83-4f26-ac31-18c7ec7efa49",
+      "stop": 1790918193442
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918193456,
+      "name": "Create request context",
+      "uuid": "21eaa762-7d8a-4e48-ae47-6ec4ec2b5c3e",
+      "stop": 1790918193479
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918193488,
+      "name": "POST \"/api/createAccount\"",
+      "uuid": "f03c1da4-a426-47ae-afbb-5bcc6c0f160b",
+      "stop": 1790918194985
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918195006,
+      "name": "Expect \"toBe\"",
+      "uuid": "003c9869-2e1a-4693-9d45-30a87efa429b",
+      "stop": 1790918195008
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918195021,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "a79d3cb8-d47c-469d-b037-72d40e4960cf",
+      "stop": 1790918195028
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790918195042,
+      "uuid": "43022012-9df3-467b-b142-e8ee6336bc16",
+      "stop": 1790918195071
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.createAccountApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "f5e516e1759896ec0da9a522cea04704"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\createAccountApi.spec.ts"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-6816-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\createAccountApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790918193352,
+  "testCaseId": "6f4ddee32b8b94808b3c1883dd934ef4",
+  "fullName": "api/createAccountApi.spec.ts:8:5",
+  "titlePath": ["automationexercise", "api", "createAccountApi.spec.ts"],
+  "stop": 1790918194964
+}

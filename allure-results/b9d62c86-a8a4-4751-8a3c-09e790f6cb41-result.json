@@ -1,0 +1,33 @@
+{
+  "uuid": "b9d62c86-a8a4-4751-8a3c-09e790f6cb41",
+  "name": "Register User - Step 1 to Step 7",
+  "historyId": "6ed21b770f1e276b737020de8fdc7d14:84e28e814b821ed013329cc8dbc467e0",
+  "status": "skipped",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.register.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "10e3332b23f39c275829d3525d52a8a3"
+    },
+    { "name": "titlePath", "value": " > webkit > register.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-236-worker-0" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "register.spec.ts" }
+  ],
+  "links": [],
+  "start": 1787914795957,
+  "testCaseId": "6ed21b770f1e276b737020de8fdc7d14",
+  "fullName": "register.spec.ts:5:5",
+  "titlePath": ["automationexercise", "register.spec.ts"],
+  "stop": 1787914795957
+}

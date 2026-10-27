@@ -1,0 +1,99 @@
+{
+  "uuid": "59e6c82e-ba5d-4237-a789-5bd0eebfbf51",
+  "name": "Contact Us Form",
+  "historyId": "6f602bb366632217d6e6d4ef40a95da3:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: worker process exited unexpectedly (code=2147483651, signal=null)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "statusDetails": {},
+      "stage": "running",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1788250309120,
+              "uuid": "3c460ecf-dba3-4f5b-bb0d-8802745fdc71",
+              "stop": 1788250313610
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1788250309115,
+          "uuid": "87e29042-41fe-4222-8c4e-62a54eee7b20",
+          "stop": 1788250313610
+        },
+        {
+          "statusDetails": {},
+          "stage": "running",
+          "steps": [
+            {
+              "statusDetails": {},
+              "stage": "running",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788250313617,
+              "uuid": "07654d46-3b0b-4621-a6d3-a67b18ec1427"
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788250313614,
+          "uuid": "f6e0546d-b49a-4803-8488-59c7f8e401d8"
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788250309095,
+      "uuid": "44f8ab11-0b49-4648-8248-ce24e57c30a0"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stderr",
+      "source": "977f53a8-4ba3-46ed-9b31-cd0ad7685bd4-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.contactUs.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "7c64da087255390dc989adfbbbc8cd19"
+    },
+    { "name": "titlePath", "value": " > chromium > contactUs.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "sanity" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-11196-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "contactUs.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788250309096,
+  "testCaseId": "6f602bb366632217d6e6d4ef40a95da3",
+  "fullName": "contactUs.spec.ts:4:5",
+  "titlePath": ["automationexercise", "contactUs.spec.ts"],
+  "stop": 1788250313909
+}

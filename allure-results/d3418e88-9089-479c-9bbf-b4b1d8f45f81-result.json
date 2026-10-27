@@ -1,0 +1,130 @@
+{
+  "uuid": "d3418e88-9089-479c-9bbf-b4b1d8f45f81",
+  "name": "Unauthorized update with invalid token should fail (401/403)",
+  "historyId": "ca59f1b175ce797aaa3ebec0a8ea209d:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788251363587,
+      "uuid": "62094f06-28e2-4795-9446-0531737eaadb",
+      "stop": 1788251363623
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251363640,
+      "name": "Create request context",
+      "uuid": "ff25cead-527a-4521-b455-1bf71c5cfd18",
+      "stop": 1788251363663
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251363668,
+      "name": "POST \"/booking\"",
+      "uuid": "cc38eb3e-4983-4468-a9e9-a83d10769d62",
+      "stop": 1788251365198
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251365205,
+      "name": "Expect \"toBe\"",
+      "uuid": "2ee0229f-cc0f-448b-8f0a-05526616eea4",
+      "stop": 1788251365199
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251365210,
+      "name": "PUT \"/booking/4580\"",
+      "uuid": "3a316e7f-b74c-4eeb-8b94-307d6eec13cf",
+      "stop": 1788251365513
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251365514,
+      "name": "Expect \"toBeTruthy\"",
+      "uuid": "1a6c3685-d6a4-4c84-a023-e9f790d409fe",
+      "stop": 1788251365507
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788251365517,
+      "uuid": "bb2b5dda-a71f-4d75-bfe6-9061d8c48f83",
+      "stop": 1788251365526
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.api.auth.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "e1858974f8dda72ac22984f1d22431ed"
+    },
+    {
+      "name": "titlePath",
+      "value": " > firefox > api\\auth.spec.ts > Authentication and Authorization - Restful Booker"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "sanity" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-13576-worker-1" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "api\\auth.spec.ts" },
+    {
+      "name": "subSuite",
+      "value": "Authentication and Authorization - Restful Booker"
+    }
+  ],
+  "links": [],
+  "start": 1788251363511,
+  "testCaseId": "ca59f1b175ce797aaa3ebec0a8ea209d",
+  "fullName": "api/auth.spec.ts:96:7",
+  "titlePath": [
+    "automationexercise",
+    "api",
+    "auth.spec.ts",
+    "Authentication and Authorization - Restful Booker"
+  ],
+  "stop": 1788251365415
+}

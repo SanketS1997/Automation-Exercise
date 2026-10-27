@@ -1,0 +1,45 @@
+{
+  "uuid": "a89c181d-a572-467f-a9ff-a7e059ceb110",
+  "name": "Login, obtain token and perform authorized update",
+  "historyId": "d87950724d0908da2d7775c957ebf57c:84e28e814b821ed013329cc8dbc467e0",
+  "status": "skipped",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.api.auth.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "951ca84b4e3cdd674b48e6c3451ae434"
+    },
+    {
+      "name": "titlePath",
+      "value": " > webkit > api\\auth.spec.ts > Authentication and Authorization - Restful Booker"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-236-worker-0" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "api\\auth.spec.ts" },
+    {
+      "name": "subSuite",
+      "value": "Authentication and Authorization - Restful Booker"
+    }
+  ],
+  "links": [],
+  "start": 1787914795933,
+  "testCaseId": "d87950724d0908da2d7775c957ebf57c",
+  "fullName": "api/auth.spec.ts:11:7",
+  "titlePath": [
+    "automationexercise",
+    "api",
+    "auth.spec.ts",
+    "Authentication and Authorization - Restful Booker"
+  ],
+  "stop": 1787914795934
+}

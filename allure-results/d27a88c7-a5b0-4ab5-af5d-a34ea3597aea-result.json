@@ -1,0 +1,124 @@
+{
+  "uuid": "d27a88c7-a5b0-4ab5-af5d-a34ea3597aea",
+  "name": "get started link",
+  "historyId": "a10cc3ffbe908f9c6e9aa146a4027a36:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: worker process exited unexpectedly (code=2147483651, signal=null)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "statusDetails": {},
+      "stage": "running",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1788249521574,
+              "uuid": "c7e30138-b4ea-4423-a4f8-c5585cdd39b7",
+              "stop": 1788249523470
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1788249521570,
+          "uuid": "44e029b7-998b-4e37-b1d5-8a212d1a06a0",
+          "stop": 1788249523470
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788249523479,
+              "uuid": "a261d878-3955-495d-9a82-2e9454a9f46c",
+              "stop": 1788249523648
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788249523474,
+          "uuid": "3d3cf7f9-9216-40bf-9589-345578486f2f",
+          "stop": 1788249523651
+        },
+        {
+          "statusDetails": {},
+          "stage": "running",
+          "steps": [
+            {
+              "statusDetails": {},
+              "stage": "running",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788249523656,
+              "uuid": "30c7bac0-367c-4bc8-83dc-2ecfab815c68"
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788249523652,
+          "uuid": "e472b7a6-29c1-45cf-8071-1eb92acc5061"
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788249521551,
+      "uuid": "03861a99-a4d0-4d8a-bc3e-aafa00b0ffb0"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stderr",
+      "source": "d746d5c1-79b8-499a-99b4-0aa18f6939e4-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.example.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "37e4aa066a5f6eac2e4d3b98a2ed98a7"
+    },
+    { "name": "titlePath", "value": " > chromium > example.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "sanity" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-18356-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788249521550,
+  "testCaseId": "a10cc3ffbe908f9c6e9aa146a4027a36",
+  "fullName": "example.spec.ts:10:5",
+  "titlePath": ["automationexercise", "example.spec.ts"],
+  "stop": 1788249524135
+}

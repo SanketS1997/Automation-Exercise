@@ -1,0 +1,133 @@
+{
+  "uuid": "72f56fbf-1557-4217-a3ef-71731343e5e7",
+  "name": "API 4: PUT to All Brands List should not be supported",
+  "historyId": "5dc8f306c32ffa6516fb0733c55bb299:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1790951181810,
+              "uuid": "c7f5c295-71ef-4419-9bfe-18bdd3c40d76",
+              "stop": 1790951181838
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790951181779,
+          "uuid": "f99ed4de-c879-4cd5-8260-d216782011d5",
+          "stop": 1790951181841
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790951181705,
+      "uuid": "072cb535-44ee-438b-9666-b575dbcbff08",
+      "stop": 1790951181841
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951181845,
+      "name": "PUT \"/api/brandsList\"",
+      "uuid": "5dc46726-e7e9-4ead-a3c4-9817a666b97d",
+      "stop": 1790951183622
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951183627,
+      "name": "Expect \"toBe\"",
+      "uuid": "e81c3dac-d6d5-47db-ad39-0678eb8f1155",
+      "stop": 1790951183628
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951183630,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "00797ad6-3c49-4d60-863f-5396901609bc",
+      "stop": 1790951183632
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790951183635,
+          "uuid": "d3c1b725-eba3-4221-83fb-f2c3d6ee36c7",
+          "stop": 1790951183640
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790951183633,
+      "uuid": "ad95a5d9-aa58-46df-b76d-32e6512109ad",
+      "stop": 1790951183650
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.api.brandsApi.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "1b28dbe01d1518dd48d53058d989e5a4"
+    },
+    { "name": "titlePath", "value": " > chromium > api\\brandsApi.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-4632-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\brandsApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790951181646,
+  "testCaseId": "5dc8f306c32ffa6516fb0733c55bb299",
+  "fullName": "api/brandsApi.spec.ts:4:5",
+  "titlePath": ["automationexercise", "api", "brandsApi.spec.ts"],
+  "stop": 1790951183512
+}

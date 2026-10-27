@@ -1,0 +1,381 @@
+{
+  "uuid": "6df8c27c-a60f-4329-8571-71974aff89cc",
+  "name": "Search Product",
+  "historyId": "43a8df0f36e6381ed450bba1f33d0ac0:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded.",
+    "trace": "Test timeout of 30000ms exceeded."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788251409611,
+              "uuid": "3828b31d-b564-46a5-98e2-a5a18f3e90d5",
+              "stop": 1788251409640
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788251409608,
+          "uuid": "1cc1f78e-a68e-4bf5-88af-76338651e84c",
+          "stop": 1788251409641
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788251409648,
+              "uuid": "7479a29b-3c1a-4f9f-9cdb-0ea0e65f72c4",
+              "stop": 1788251410720
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788251409642,
+          "uuid": "fa5eafcc-8c18-4a3a-8d41-da5ff67b42de",
+          "stop": 1788251410720
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1788251410721,
+          "uuid": "7557f22e-f7c6-4295-9409-472ef0f886fc",
+          "stop": 1788251410722
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1788251410722,
+          "uuid": "374b27b9-a135-4131-8af0-300be5a3f093",
+          "stop": 1788251410724
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788251409588,
+      "uuid": "c9a9219c-ae4e-4ade-a552-d57045bd272e",
+      "stop": 1788251410724
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788251410731,
+          "name": "Navigate to \"/\"",
+          "uuid": "f78447a7-8b7d-4e65-90bc-f6c37ead818d",
+          "stop": 1788251413560
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251410726,
+      "name": "Navigate to Home Page",
+      "uuid": "06c12133-126f-46b7-a917-3198287633fb",
+      "stop": 1788251413561
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251413563,
+      "name": "Expect \"toBeVisible\" locator('img[alt=\"Website for automation practice\"]')",
+      "uuid": "9b090e00-a349-4f39-a2a5-0d16787cbe92",
+      "stop": 1788251413783
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788251413796,
+          "name": "Click locator('a[href=\"/products\"]')",
+          "uuid": "6a9d6d72-8b71-43f3-b68c-fdc4199d83dd",
+          "stop": 1788251416014
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251413787,
+      "name": "Open Products Page",
+      "uuid": "3a471579-00a7-424c-b858-7b69e1a8cfc3",
+      "stop": 1788251416014
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251416016,
+      "name": "Expect \"toHaveURL\"",
+      "uuid": "5982abfe-9507-4700-9950-58cb7256e339",
+      "stop": 1788251420053
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251420062,
+      "name": "Expect \"toContainText\" locator('.title.text-center')",
+      "uuid": "130e6eee-38ef-4419-95a1-5f3c26b831e7",
+      "stop": 1788251420288
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#submit_search')\n    - locator resolved to <button type=\"button\" id=\"submit_search\" class=\"btn btn-default btn-lg\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is not stable\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n",
+        "trace": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#submit_search')\n    - locator resolved to <button type=\"button\" id=\"submit_search\" class=\"btn btn-default btn-lg\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is not stable\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n\n    at ProductsPage.click (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:36:19)\n    at C:\\Users\\91997\\AutomationExercise\\src\\pages\\ProductsPage.ts:86:20\n    at C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:7"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788251420296,
+          "name": "Fill \"Blue Top\" locator('#search_product')",
+          "uuid": "3d778583-a314-4ce1-a623-648048faac55",
+          "stop": 1788251420426
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#submit_search')\n    - locator resolved to <button type=\"button\" id=\"submit_search\" class=\"btn btn-default btn-lg\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is not stable\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n",
+            "trace": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for locator('#submit_search')\n    - locator resolved to <button type=\"button\" id=\"submit_search\" class=\"btn btn-default btn-lg\">…</button>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is not stable\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n\n    at ProductsPage.click (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:36:19)\n    at C:\\Users\\91997\\AutomationExercise\\src\\pages\\ProductsPage.ts:86:20\n    at C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:7"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788251420428,
+          "name": "Click locator('#submit_search')",
+          "uuid": "ea127c43-8f2b-4ab9-af3e-2e69857187f4",
+          "stop": 1788251443738
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251420291,
+      "name": "Search Product : Blue Top",
+      "uuid": "8cf6ce91-1713-4461-b239-95a284c167bf",
+      "stop": 1788251443740
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "673eb060-c3db-4d55-b1f6-ee860e06f25b-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251445594,
+      "name": "screenshot",
+      "stop": 1788251445594
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "231ff75c-d506-497d-8b8d-720ccc2bd418-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251445597,
+      "name": "video",
+      "stop": 1788251445597
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "5d7a02fb-dd1e-4a40-bb68-23651db7a4ba-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251445601,
+      "name": "error-context",
+      "stop": 1788251445602
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1788251440225,
+          "uuid": "d6923895-fb1e-466b-9f6e-f0aa94410dc1",
+          "stop": 1788251440226
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1788251440226,
+          "uuid": "7690a46a-0941-476b-973a-f00d0509a2dd",
+          "stop": 1788251440227
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788251440227,
+          "uuid": "351379f5-3d09-4781-a65f-fc5ffb90e9c4",
+          "stop": 1788251440227
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1788251442818,
+              "uuid": "f928afb8-c3b6-4560-b423-78f4877edb20",
+              "stop": 1788251443800
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788251440228,
+          "uuid": "22b569db-efc2-4097-8c37-99eb33e9dd60",
+          "stop": 1788251443939
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788251439622,
+      "uuid": "a82d2b73-f749-4b2a-bfd8-96e7e1568868",
+      "stop": 1788251444120
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "8dc5163a-e65e-43c7-aed1-42043cbb7ce3-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.searchProduct.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "b36613cc227946233276871975c50813"
+    },
+    { "name": "titlePath", "value": " > firefox > searchProduct.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "sanity" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-13576-worker-2" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "searchProduct.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788251409635,
+  "testCaseId": "43a8df0f36e6381ed450bba1f33d0ac0",
+  "fullName": "searchProduct.spec.ts:4:5",
+  "titlePath": ["automationexercise", "searchProduct.spec.ts"],
+  "stop": 1788251443968
+}

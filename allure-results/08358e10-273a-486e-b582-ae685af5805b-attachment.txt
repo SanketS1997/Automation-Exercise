@@ -1,0 +1,3 @@
+2026-08-28 11:12:28 [INFO] Opening Home Page
+2026-08-28 11:12:49 [INFO] Click Signup/Login
+2026-08-28 11:12:49 [INFO] Clicking element

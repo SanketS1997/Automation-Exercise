@@ -1,0 +1,12 @@
+2026-10-02 07:28:21 [INFO] Starting UI test suite on chromium
+2026-10-02 07:28:21 [INFO] Starting test: Contact Us Form (project=chromium, retry=0)
+2026-10-02 07:28:34 [INFO] Opening Home Page
+2026-10-02 07:28:55 [INFO] Opening Contact Us page
+2026-10-02 07:28:56 [INFO] Entering contact details for sanketshevale111@gmail.com
+2026-10-02 07:28:57 [INFO] Uploading file: src/data/sample.txt
+2026-10-02 07:28:58 [INFO] Setting up dialog handler
+2026-10-02 07:28:58 [INFO] Submitting Contact Us form
+2026-10-02 07:28:58 [INFO] Alert message: Press OK to proceed!
+2026-10-02 07:28:58 [INFO] Navigating back to Home page
+2026-10-02 07:28:59 [INFO] Finished test: Contact Us Form (status=timedOut)
+2026-10-02 07:29:01 [INFO] UI test suite finished

@@ -1,1 +1,128 @@
-{"uuid":"9c968220-0cb7-41fe-a8f7-233231e4f6c5","name":"Unauthorized update with invalid token should fail (401/403)","historyId":"ca59f1b175ce797aaa3ebec0a8ea209d:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Before Hooks","start":1786543891011,"uuid":"697f23e9-7cdf-47c6-a58b-c4e0505bd43c","stop":1786543891047},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786543891064,"name":"Create request context","uuid":"8d1d9552-c2d0-4c14-baf7-05893be040bd","stop":1786543891084},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786543891094,"name":"POST \"/booking\"","uuid":"df34734d-705c-46cd-a60f-663a5a9b40f2","stop":1786543892746},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786543892750,"name":"Expect \"toBe\"","uuid":"3fa89c06-08a9-4ba8-8aed-0c890196d3d7","stop":1786543892751},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786543892754,"name":"PUT \"/booking/400\"","uuid":"c2a1f8a9-9bad-448a-830a-178c276e2bc3","stop":1786543893113},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786543893115,"name":"Expect \"toBeTruthy\"","uuid":"4a21d8e3-a839-47da-b724-1fe09502cf49","stop":1786543893113},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"After Hooks","start":1786543893119,"uuid":"fb2ef0ff-ce24-4382-8512-611177aba265","stop":1786543893131}],"attachments":[],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"automationexercise.api.auth.spec.ts"},{"name":"_fallbackTestCaseId","value":"e1858974f8dda72ac22984f1d22431ed"},{"name":"titlePath","value":" > chromium > api\\auth.spec.ts > Authentication and Authorization - Restful Booker"},{"name":"host","value":"DESKTOP-MPECNHA"},{"name":"thread","value":"pid-9912-worker-2"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"api\\auth.spec.ts"},{"name":"subSuite","value":"Authentication and Authorization - Restful Booker"}],"links":[],"start":1786543890962,"testCaseId":"ca59f1b175ce797aaa3ebec0a8ea209d","fullName":"api/auth.spec.ts:80:7","titlePath":["automationexercise","api","auth.spec.ts","Authentication and Authorization - Restful Booker"],"stop":1786543893042}
+{
+  "uuid": "9c968220-0cb7-41fe-a8f7-233231e4f6c5",
+  "name": "Unauthorized update with invalid token should fail (401/403)",
+  "historyId": "ca59f1b175ce797aaa3ebec0a8ea209d:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1786543891011,
+      "uuid": "697f23e9-7cdf-47c6-a58b-c4e0505bd43c",
+      "stop": 1786543891047
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786543891064,
+      "name": "Create request context",
+      "uuid": "8d1d9552-c2d0-4c14-baf7-05893be040bd",
+      "stop": 1786543891084
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786543891094,
+      "name": "POST \"/booking\"",
+      "uuid": "df34734d-705c-46cd-a60f-663a5a9b40f2",
+      "stop": 1786543892746
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786543892750,
+      "name": "Expect \"toBe\"",
+      "uuid": "3fa89c06-08a9-4ba8-8aed-0c890196d3d7",
+      "stop": 1786543892751
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786543892754,
+      "name": "PUT \"/booking/400\"",
+      "uuid": "c2a1f8a9-9bad-448a-830a-178c276e2bc3",
+      "stop": 1786543893113
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786543893115,
+      "name": "Expect \"toBeTruthy\"",
+      "uuid": "4a21d8e3-a839-47da-b724-1fe09502cf49",
+      "stop": 1786543893113
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1786543893119,
+      "uuid": "fb2ef0ff-ce24-4382-8512-611177aba265",
+      "stop": 1786543893131
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.api.auth.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "e1858974f8dda72ac22984f1d22431ed"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\auth.spec.ts > Authentication and Authorization - Restful Booker"
+    },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-9912-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\auth.spec.ts" },
+    {
+      "name": "subSuite",
+      "value": "Authentication and Authorization - Restful Booker"
+    }
+  ],
+  "links": [],
+  "start": 1786543890962,
+  "testCaseId": "ca59f1b175ce797aaa3ebec0a8ea209d",
+  "fullName": "api/auth.spec.ts:80:7",
+  "titlePath": [
+    "automationexercise",
+    "api",
+    "auth.spec.ts",
+    "Authentication and Authorization - Restful Booker"
+  ],
+  "stop": 1786543893042
+}

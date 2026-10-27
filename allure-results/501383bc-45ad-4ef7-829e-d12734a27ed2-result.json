@@ -1,0 +1,106 @@
+{
+  "uuid": "501383bc-45ad-4ef7-829e-d12734a27ed2",
+  "name": "API 4: PUT to All Brands List should not be supported",
+  "historyId": "5dc8f306c32ffa6516fb0733c55bb299:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790915926096,
+      "uuid": "bdb3c49b-33c0-42f0-b9b7-a3721d2c5ceb",
+      "stop": 1790915926115
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790915926131,
+      "name": "Create request context",
+      "uuid": "0265430b-3e25-4519-9ab5-cfada958364c",
+      "stop": 1790915926146
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790915926150,
+      "name": "PUT \"/api/brandsList\"",
+      "uuid": "c4b9b0d5-5174-45c3-9c68-07469dd20dc4",
+      "stop": 1790915932019
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790915932037,
+      "name": "Expect \"toBe\"",
+      "uuid": "a8ef3dd4-2f85-48f7-8de5-50938fc8ec1e",
+      "stop": 1790915932039
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790915932049,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "8a6f8fc5-dbb6-49ad-8e44-ecb0eb714ea4",
+      "stop": 1790915932054
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790915932071,
+      "uuid": "7ad10e97-1999-4f42-a543-c0a6e8b5dcb9",
+      "stop": 1790915932138
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.api.brandsApi.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "1b28dbe01d1518dd48d53058d989e5a4"
+    },
+    { "name": "titlePath", "value": " > chromium > api\\brandsApi.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-4244-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\brandsApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790915926063,
+  "testCaseId": "5dc8f306c32ffa6516fb0733c55bb299",
+  "fullName": "api/brandsApi.spec.ts:7:5",
+  "titlePath": ["automationexercise", "api", "brandsApi.spec.ts"],
+  "stop": 1790915932033
+}

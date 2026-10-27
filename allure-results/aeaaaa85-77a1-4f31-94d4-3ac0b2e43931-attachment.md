@@ -1,0 +1,117 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: searchProduct.spec.ts >> Search Product
+- Location: tests\searchProduct.spec.ts:4:5
+
+# Error details
+
+```
+Error: expect(page).toHaveURL(expected) failed
+
+Expected pattern: /products/
+Received string:  ""
+
+```
+
+# Test source
+
+```ts
+  1  | import { expect, Page } from "@playwright/test";
+  2  | 
+  3  | import { BasePage } from "./BasePage";
+  4  | import { ProductsLocators } from "../locators/ProductsLocators";
+  5  | import { ProductsValidator } from "../validators/ProductsValidator";
+  6  | import { Product } from "../models/Product";
+  7  | import { Logger } from "../utils/Logger";
+  8  | import { AllureHelper } from "../reporting/AllureHelper";
+  9  | 
+  10 | export class ProductsPage extends BasePage {
+  11 |   private readonly locators: ProductsLocators;
+  12 |   public readonly validator: ProductsValidator;
+  13 | 
+  14 |   constructor(page: Page) {
+  15 |     super(page);
+  16 | 
+  17 |     this.locators = new ProductsLocators(page);
+  18 |     this.validator = new ProductsValidator(this.locators);
+  19 |   }
+  20 | 
+  21 |   // ==========================================
+  22 |   // Navigation
+  23 |   // ==========================================
+  24 | 
+  25 |   async clickProducts(): Promise<void> {
+  26 |     Logger.info("Opening Products Page");
+  27 | 
+  28 |     await AllureHelper.step("Open Products Page", async () => {
+  29 |       await this.click(this.locators.productsLink);
+  30 | 
+  31 |       if (this.page.url().includes("#google_vignette")) {
+  32 |         await this.page.goto("https://automationexercise.com/products");
+  33 |       }
+  34 |     });
+  35 |   }
+  36 | 
+  37 |   // ==========================================
+  38 |   // Validations
+  39 |   // ==========================================
+  40 | 
+  41 |   async verifyAllProductsPage(): Promise<void> {
+> 42 |     await expect(this.page).toHaveURL(/products/);
+     |                             ^ Error: expect(page).toHaveURL(expected) failed
+  43 |     await this.validator.verifyProductsPage();
+  44 |   }
+  45 | 
+  46 |   async verifyProductsListVisible(): Promise<void> {
+  47 |     await this.validator.verifyProductsListVisible();
+  48 |   }
+  49 | 
+  50 |   async verifyProductDetailPage(): Promise<void> {
+  51 |     await expect(this.page).toHaveURL(/product_details/);
+  52 |   }
+  53 | 
+  54 |   async verifyProductDetails(): Promise<void> {
+  55 |     await this.validator.verifyProductDetails();
+  56 |   }
+  57 | 
+  58 |   async verifySearchedProductsHeading(): Promise<void> {
+  59 |     await this.validator.verifySearchedProductsHeading();
+  60 |   }
+  61 | 
+  62 |   async verifySearchResults(): Promise<void> {
+  63 |     await this.validator.verifySearchResults();
+  64 |   }
+  65 | 
+  66 |   // ==========================================
+  67 |   // Actions
+  68 |   // ==========================================
+  69 | 
+  70 |   async clickFirstViewProduct(): Promise<void> {
+  71 |     Logger.info("Opening First Product");
+  72 | 
+  73 |     await AllureHelper.step("Open First Product", async () => {
+  74 |       await this.click(this.locators.firstViewProduct);
+  75 |     });
+  76 |   }
+  77 | 
+  78 |   async searchProduct(product: Product): Promise<void> {
+  79 |     Logger.info(`Searching Product : ${product.productName}`);
+  80 | 
+  81 |     await AllureHelper.step(
+  82 |       `Search Product : ${product.productName}`,
+  83 |       async () => {
+  84 |         await this.fill(this.locators.searchInput, product.productName);
+  85 | 
+  86 |         await this.click(this.locators.searchButton);
+  87 |       },
+  88 |     );
+  89 |   }
+  90 | }
+  91 | 
+```

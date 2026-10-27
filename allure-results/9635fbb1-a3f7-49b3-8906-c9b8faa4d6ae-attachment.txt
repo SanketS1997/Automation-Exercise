@@ -1,0 +1,9 @@
+2026-10-02 14:27:06 [INFO] Starting UI test suite on chromium
+2026-10-02 14:27:06 [INFO] Starting test: Register User with Existing Email (project=chromium, retry=0)
+2026-10-02 14:27:09 [INFO] Opening Home Page
+2026-10-02 14:27:33 [INFO] Click Signup/Login
+2026-10-02 14:27:33 [INFO] Clicking element
+2026-10-02 14:27:34 [INFO] Entering signup details for sanketshevale111@gmail.com
+2026-10-02 14:27:34 [INFO] Clicking Signup button
+2026-10-02 14:27:35 [INFO] Finished test: Register User with Existing Email (status=passed)
+2026-10-02 14:27:37 [INFO] UI test suite finished

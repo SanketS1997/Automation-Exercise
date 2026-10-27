@@ -1,0 +1,33 @@
+{
+  "uuid": "024ff57d-173b-438a-ab28-3d43abea0121",
+  "name": "Verify All Products and Product Detail Page",
+  "historyId": "d3414c804c5e72859cc6091c8201e0c6:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "skipped",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.products.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "aee889e8de1744cc82f7e6beb7f02114"
+    },
+    { "name": "titlePath", "value": " > firefox > products.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-4444-worker-0" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "products.spec.ts" }
+  ],
+  "links": [],
+  "start": 1787914804851,
+  "testCaseId": "d3414c804c5e72859cc6091c8201e0c6",
+  "fullName": "products.spec.ts:3:5",
+  "titlePath": ["automationexercise", "products.spec.ts"],
+  "stop": 1787914804852
+}

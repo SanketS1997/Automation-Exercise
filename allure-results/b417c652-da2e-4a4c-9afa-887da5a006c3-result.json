@@ -1,0 +1,199 @@
+{
+  "uuid": "b417c652-da2e-4a4c-9afa-887da5a006c3",
+  "name": "Logout User",
+  "historyId": "3d972ce09460e5261e65176cbc36b193:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded while setting up \"page\".",
+    "trace": "Test timeout of 30000ms exceeded while setting up \"page\"."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "statusDetails": {},
+      "stage": "running",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1788250316054,
+              "uuid": "a8f2fdb9-16e5-4071-9ce6-95595fcec307",
+              "stop": 1788250317324
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1788250316038,
+          "uuid": "52035a02-148e-41ad-96cb-5bbbcefd16d1",
+          "stop": 1788250317324
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788250317334,
+              "uuid": "8a5b5fe0-d8f6-418a-8d04-21037b1adc6b",
+              "stop": 1788250317376
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788250317329,
+          "uuid": "69aa3ed2-3f5d-4ca3-aac3-b4261eec3710",
+          "stop": 1788250317379
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Test timeout of 30000ms exceeded while setting up \"page\".",
+            "trace": "Test timeout of 30000ms exceeded while setting up \"page\"."
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Test timeout of 30000ms exceeded while setting up \"page\".",
+                "trace": "Test timeout of 30000ms exceeded while setting up \"page\"."
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788250317384,
+              "uuid": "e2709351-8766-4c2d-8bf0-6962716bdaf3",
+              "stop": 1788250347334
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788250317380,
+          "uuid": "49e7b269-5010-4269-963d-3674e7223dc4",
+          "stop": 1788250348701
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788250316009,
+      "uuid": "e48767cb-f350-40da-aa02-538d382aaa30"
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "dc40425e-fa89-4645-8690-13267fae938f-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1788250384832,
+      "name": "error-context",
+      "stop": 1788250384832
+    },
+    {
+      "statusDetails": {},
+      "stage": "running",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788250347335,
+          "uuid": "11831005-dae3-4bf3-b576-186661c0393e",
+          "stop": 1788250347335
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Tearing down \"context\" exceeded the test timeout of 30000ms.",
+            "trace": "Tearing down \"context\" exceeded the test timeout of 30000ms."
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Tearing down \"context\" exceeded the test timeout of 30000ms.",
+                "trace": "Tearing down \"context\" exceeded the test timeout of 30000ms."
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1788250347352,
+              "uuid": "f93825db-de03-443c-848f-6b606f7f5b46",
+              "stop": 1788250377366
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788250347336,
+          "uuid": "bda6e7c8-a3ab-4b8a-995b-0246c4a5122d",
+          "stop": 1788250377370
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788250347332,
+      "uuid": "ae7a444c-ba06-46b2-833d-4fd550e82be3"
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.logout.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "951eb77a2142016de4e633749d5e4b0c"
+    },
+    { "name": "titlePath", "value": " > chromium > logout.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-11196-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "logout.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788250315955,
+  "testCaseId": "3d972ce09460e5261e65176cbc36b193",
+  "fullName": "logout.spec.ts:6:5",
+  "titlePath": ["automationexercise", "logout.spec.ts"],
+  "stop": 1788250375974
+}

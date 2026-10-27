@@ -1,0 +1,272 @@
+{
+  "uuid": "a3eb3082-786a-438c-88e1-6b390c2e1248",
+  "name": "Register User - Step 1 to Step 7",
+  "historyId": "6ed21b770f1e276b737020de8fdc7d14:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded.",
+    "trace": "Test timeout of 30000ms exceeded."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788251809143,
+              "uuid": "d1fba51a-a2c7-48e2-b237-a912049e491b",
+              "stop": 1788251809226
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788251809142,
+          "uuid": "98e2a85b-3454-469b-ae44-84cc6de83ba3",
+          "stop": 1788251809226
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788251809230,
+              "uuid": "ee7b3e71-6eb9-4f98-90f1-54ce3b4cd887",
+              "stop": 1788251810438
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788251809227,
+          "uuid": "300f420b-9d2f-465b-897e-54ce39b28efe",
+          "stop": 1788251810438
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788251809088,
+      "uuid": "3f35bf2e-1618-4d56-891e-403158331377",
+      "stop": 1788251810438
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788251810447,
+          "name": "Navigate to \"/\"",
+          "uuid": "a11f10d6-f6e1-4727-82ee-08b53f435ac6",
+          "stop": 1788251824488
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251810443,
+      "name": "Navigate to Home Page",
+      "uuid": "58036d1d-1969-4476-b724-75a90d943106",
+      "stop": 1788251824489
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251824491,
+      "name": "Expect \"toBeVisible\" locator('img[alt=\"Website for automation practice\"]')",
+      "uuid": "84577f0d-2c38-466c-ad18-605b53b29322",
+      "stop": 1788251825227
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Signup / Login' })\n    - locator resolved to <a href=\"/login\">…</a>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n",
+        "trace": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Signup / Login' })\n    - locator resolved to <a href=\"/login\">…</a>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n\n    at HomePage.click (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:36:19)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:39:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Signup / Login' })\n    - locator resolved to <a href=\"/login\">…</a>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n",
+            "trace": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Signup / Login' })\n    - locator resolved to <a href=\"/login\">…</a>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n\n    at HomePage.click (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:36:19)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:39:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788251825237,
+          "name": "Click getByRole('link', { name: 'Signup / Login' })",
+          "uuid": "42c2eafd-7c0d-401d-b3f6-f61033a3a8a9",
+          "stop": 1788251846400
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251825229,
+      "name": "Click Signup/Login",
+      "uuid": "3aa859d1-cad7-46e8-b1fc-a408720468b9",
+      "stop": 1788251846404
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "fe356a42-ff9e-4b0f-9fe9-05cda1789f9f-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251849413,
+      "name": "screenshot",
+      "stop": 1788251849413
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "a62efecd-6853-4345-ab95-409d54d5cd8c-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251849416,
+      "name": "video",
+      "stop": 1788251849416
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "ddd86283-eddb-448b-a87f-917596bfb8b8-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251849420,
+      "name": "error-context",
+      "stop": 1788251849420
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788251840788,
+          "uuid": "9674df73-805b-492a-abf6-8091f24a5f92",
+          "stop": 1788251840788
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1788251845846,
+              "uuid": "ca70fbae-7a38-4111-82c9-4d2ab1e030d9",
+              "stop": 1788251846413
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788251840792,
+          "uuid": "3a7e8ebd-5b02-4af0-acf5-cb74e38c0a0d",
+          "stop": 1788251846455
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788251839145,
+      "uuid": "2b35e2c6-241c-48e1-be1c-a5d253e89f58",
+      "stop": 1788251846683
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "977a6a3d-ff8a-4db7-a93d-fec84f6b8cb5-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.register.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "10e3332b23f39c275829d3525d52a8a3"
+    },
+    { "name": "titlePath", "value": " > firefox > register.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-16064-worker-2" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "register.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788251809171,
+  "testCaseId": "6ed21b770f1e276b737020de8fdc7d14",
+  "fullName": "register.spec.ts:5:5",
+  "titlePath": ["automationexercise", "register.spec.ts"],
+  "stop": 1788251846524
+}

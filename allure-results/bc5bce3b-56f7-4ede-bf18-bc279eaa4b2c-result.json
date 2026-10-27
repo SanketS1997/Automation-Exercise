@@ -1,0 +1,112 @@
+{
+  "uuid": "bc5bce3b-56f7-4ede-bf18-bc279eaa4b2c",
+  "name": "Logout User",
+  "historyId": "3d972ce09460e5261e65176cbc36b193:84e28e814b821ed013329cc8dbc467e0",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=4936\nCall log:\n  - <launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n  - <launched> pid=4936\n  - [pid=4936] <gracefully close start>\n  - [pid=4936] <kill>\n  - [pid=4936] <will force kill>\n  - [pid=4936] taskkill stderr: ERROR: The process \"4936\" not found.\n  - [pid=4936] <process did exit: exitCode=3221225501, signal=null>\n  - [pid=4936] starting temporary directories cleanup\n  - [pid=4936] finished temporary directories cleanup\n  - [pid=4936] <gracefully close end>\n",
+    "trace": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=4936\nCall log:\n  - <launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n  - <launched> pid=4936\n  - [pid=4936] <gracefully close start>\n  - [pid=4936] <kill>\n  - [pid=4936] <will force kill>\n  - [pid=4936] taskkill stderr: ERROR: The process \"4936\" not found.\n  - [pid=4936] <process did exit: exitCode=3221225501, signal=null>\n  - [pid=4936] starting temporary directories cleanup\n  - [pid=4936] finished temporary directories cleanup\n  - [pid=4936] <gracefully close end>\n"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=4936\nCall log:\n  - <launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n  - <launched> pid=4936\n  - [pid=4936] <gracefully close start>\n  - [pid=4936] <kill>\n  - [pid=4936] <will force kill>\n  - [pid=4936] taskkill stderr: ERROR: The process \"4936\" not found.\n  - [pid=4936] <process did exit: exitCode=3221225501, signal=null>\n  - [pid=4936] starting temporary directories cleanup\n  - [pid=4936] finished temporary directories cleanup\n  - [pid=4936] <gracefully close end>\n",
+        "trace": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=4936\nCall log:\n  - <launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n  - <launched> pid=4936\n  - [pid=4936] <gracefully close start>\n  - [pid=4936] <kill>\n  - [pid=4936] <will force kill>\n  - [pid=4936] taskkill stderr: ERROR: The process \"4936\" not found.\n  - [pid=4936] <process did exit: exitCode=3221225501, signal=null>\n  - [pid=4936] starting temporary directories cleanup\n  - [pid=4936] finished temporary directories cleanup\n  - [pid=4936] <gracefully close end>\n"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=4936\nCall log:\n  - <launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n  - <launched> pid=4936\n  - [pid=4936] <gracefully close start>\n  - [pid=4936] <kill>\n  - [pid=4936] <will force kill>\n  - [pid=4936] taskkill stderr: ERROR: The process \"4936\" not found.\n  - [pid=4936] <process did exit: exitCode=3221225501, signal=null>\n  - [pid=4936] starting temporary directories cleanup\n  - [pid=4936] finished temporary directories cleanup\n  - [pid=4936] <gracefully close end>\n",
+            "trace": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=4936\nCall log:\n  - <launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n  - <launched> pid=4936\n  - [pid=4936] <gracefully close start>\n  - [pid=4936] <kill>\n  - [pid=4936] <will force kill>\n  - [pid=4936] taskkill stderr: ERROR: The process \"4936\" not found.\n  - [pid=4936] <process did exit: exitCode=3221225501, signal=null>\n  - [pid=4936] starting temporary directories cleanup\n  - [pid=4936] finished temporary directories cleanup\n  - [pid=4936] <gracefully close end>\n"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=4936\nCall log:\n  - <launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n  - <launched> pid=4936\n  - [pid=4936] <gracefully close start>\n  - [pid=4936] <kill>\n  - [pid=4936] <will force kill>\n  - [pid=4936] taskkill stderr: ERROR: The process \"4936\" not found.\n  - [pid=4936] <process did exit: exitCode=3221225501, signal=null>\n  - [pid=4936] starting temporary directories cleanup\n  - [pid=4936] finished temporary directories cleanup\n  - [pid=4936] <gracefully close end>\n",
+                "trace": "Error: browserType.launch: Target page, context or browser has been closed\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=4936\nCall log:\n  - <launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n  - <launched> pid=4936\n  - [pid=4936] <gracefully close start>\n  - [pid=4936] <kill>\n  - [pid=4936] <will force kill>\n  - [pid=4936] taskkill stderr: ERROR: The process \"4936\" not found.\n  - [pid=4936] <process did exit: exitCode=3221225501, signal=null>\n  - [pid=4936] starting temporary directories cleanup\n  - [pid=4936] finished temporary directories cleanup\n  - [pid=4936] <gracefully close end>\n"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1787915150709,
+              "uuid": "cf264d8b-24be-41a1-9e94-609f5fa5d98d",
+              "stop": 1787915152623
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1787915150685,
+          "uuid": "e30a1acb-7317-4f47-a1b4-6546860901e6",
+          "stop": 1787915152626
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1787915150637,
+      "uuid": "7dc792df-1feb-4554-a777-b5951a0384cf",
+      "stop": 1787915152626
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "9c87dfb3-ef6c-4264-9856-2414bd7233e7-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1787915152704,
+      "name": "error-context",
+      "stop": 1787915152704
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1787915152628,
+      "uuid": "ca02b1ed-121a-4a06-b528-f022559fff0b",
+      "stop": 1787915152685
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.logout.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "951eb77a2142016de4e633749d5e4b0c"
+    },
+    { "name": "titlePath", "value": " > webkit > logout.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-1360-worker-0" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "logout.spec.ts" }
+  ],
+  "links": [],
+  "start": 1787915150544,
+  "testCaseId": "3d972ce09460e5261e65176cbc36b193",
+  "fullName": "logout.spec.ts:6:5",
+  "titlePath": ["automationexercise", "logout.spec.ts"],
+  "stop": 1787915150561
+}

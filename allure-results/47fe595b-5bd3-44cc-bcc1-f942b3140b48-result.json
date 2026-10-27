@@ -1,0 +1,240 @@
+{
+  "uuid": "47fe595b-5bd3-44cc-bcc1-f942b3140b48",
+  "name": "has title",
+  "historyId": "cd10c99115657ec8338a2d2c48abcd7a:84e28e814b821ed013329cc8dbc467e0",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: browserContext.close: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=1576",
+    "trace": "Error: browserContext.close: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=1576"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1787915140898,
+              "uuid": "08272a9e-d9c4-4113-a4e2-90f0a48ce34b",
+              "stop": 1787915145412
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1787915140879,
+          "uuid": "385713e6-b6d1-4009-a068-783c5b0dc967",
+          "stop": 1787915145412
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1787915145425,
+              "uuid": "1ba294b0-d907-48d4-a43e-6f483f8cc4a1",
+              "stop": 1787915145816
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1787915145420,
+          "uuid": "18a32231-bf4a-4bc4-a4ac-0569407d09c0",
+          "stop": 1787915145820
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1787915145827,
+              "uuid": "170ffed2-f707-4709-acac-5096116fd128",
+              "stop": 1787915147664
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1787915145821,
+          "uuid": "5088c735-a618-40ec-8b62-3135b09bd35a",
+          "stop": 1787915147664
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1787915140845,
+      "uuid": "260bd517-6d44-4e93-bc01-6866c37e1e02",
+      "stop": 1787915147664
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1787915147669,
+      "name": "Navigate to \"/\"",
+      "uuid": "5999d5cb-36c6-4d65-8a9b-f38e65ae34cd",
+      "stop": 1787915149495
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1787915149508,
+      "name": "Expect \"toHaveTitle\"",
+      "uuid": "8173ea30-4cf1-46a8-aae3-21221ccd88b3",
+      "stop": 1787915149960
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "ec3a9ba7-42ad-4101-9d62-0cbccc410d83-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1787915152165,
+      "name": "screenshot",
+      "stop": 1787915152165
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "806050b6-91a9-4d6a-98ea-90f29f44f9b5-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1787915152170,
+      "name": "error-context",
+      "stop": 1787915152170
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: browserContext.close: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=1576",
+        "trace": "Error: browserContext.close: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=1576"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1787915149962,
+          "uuid": "21395919-81a8-4484-8e05-046c9c0dc792",
+          "stop": 1787915149962
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: browserContext.close: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=1576",
+            "trace": "Error: browserContext.close: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=1576"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Error: browserContext.close: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=1576",
+                "trace": "Error: browserContext.close: Test ended.\nBrowser logs:\n\n<launching> C:\\Users\\91997\\AppData\\Local\\ms-playwright\\webkit-2336\\Playwright.exe --inspector-pipe --disable-accelerated-compositing --no-startup-window\n<launched> pid=1576"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1787915150909,
+              "uuid": "d3c3ee52-7227-4b30-88eb-88bf5d3cdfa3",
+              "stop": 1787915151996
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1787915149963,
+          "uuid": "704802d5-0a8c-4be4-a008-674a09ac1aaa",
+          "stop": 1787915151997
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1787915149961,
+      "uuid": "39fddf6a-8b14-4806-b364-87063754a7ae",
+      "stop": 1787915152052
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.example.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "3a2a809b453af4fd564578d1a27f3e45"
+    },
+    { "name": "titlePath", "value": " > webkit > example.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-1360-worker-1" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1787915140849,
+  "testCaseId": "cd10c99115657ec8338a2d2c48abcd7a",
+  "fullName": "example.spec.ts:3:5",
+  "titlePath": ["automationexercise", "example.spec.ts"],
+  "stop": 1787915147431
+}

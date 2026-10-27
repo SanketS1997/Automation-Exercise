@@ -1,0 +1,124 @@
+{
+  "uuid": "32f9d581-4c09-44ee-83a4-c7e618e5e116",
+  "name": "Search Product",
+  "historyId": "43a8df0f36e6381ed450bba1f33d0ac0:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: worker process exited unexpectedly (code=2147483651, signal=null)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "statusDetails": {},
+      "stage": "running",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1788250328161,
+              "uuid": "4ff10751-1aeb-4773-a85b-6c8597251ad5",
+              "stop": 1788250328877
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1788250328154,
+          "uuid": "eb59c13d-ee17-40dd-9bd5-e4510fb073a5",
+          "stop": 1788250328877
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788250328887,
+              "uuid": "b5b3eaf1-a13d-49be-996d-722b5bd229b7",
+              "stop": 1788250328929
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788250328881,
+          "uuid": "d30dbcf4-8275-4e7c-8604-99fc8d3ad682",
+          "stop": 1788250328935
+        },
+        {
+          "statusDetails": {},
+          "stage": "running",
+          "steps": [
+            {
+              "statusDetails": {},
+              "stage": "running",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788250328942,
+              "uuid": "35d5b45d-d079-464f-a46f-ad513c6bba0c"
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788250328939,
+          "uuid": "9d3c3f2e-5a26-4520-98fd-11aec3fca70e"
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788250328129,
+      "uuid": "b6165cb3-8996-41d9-91fa-2475c62ad33f"
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stderr",
+      "source": "fc9b1a4e-a1d4-4d9a-aab9-f46aa0b002cf-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.searchProduct.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "b36613cc227946233276871975c50813"
+    },
+    { "name": "titlePath", "value": " > chromium > searchProduct.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "sanity" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-11196-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "searchProduct.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788250328095,
+  "testCaseId": "43a8df0f36e6381ed450bba1f33d0ac0",
+  "fullName": "searchProduct.spec.ts:4:5",
+  "titlePath": ["automationexercise", "searchProduct.spec.ts"],
+  "stop": 1788250329489
+}

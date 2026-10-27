@@ -1,0 +1,113 @@
+{
+  "uuid": "c93fd91c-629c-4970-b859-a6cb36c0e71e",
+  "name": "Verify Login API and use token if provided",
+  "historyId": "b5690e8a81abb2e428df334dbd95c9dd:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1788250307147,
+          "uuid": "58d466e2-76b1-4e6e-bd62-9605acaa0abc",
+          "stop": 1788250307196
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788250307144,
+      "uuid": "03da5578-c0b8-49f1-ba98-fd1ae31ad3fd",
+      "stop": 1788250307197
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788250307222,
+      "name": "Create request context",
+      "uuid": "2c20f684-dbeb-4cba-8a7d-abf29d256482",
+      "stop": 1788250307248
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788250307256,
+      "name": "POST \"/api/verifyLogin\"",
+      "uuid": "5145e51e-9fe7-47db-b557-c306ef0ce158",
+      "stop": 1788250308935
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788250308944,
+      "name": "Expect \"toBe\"",
+      "uuid": "0b26bd88-344f-4d49-8b5a-4497e5626d3c",
+      "stop": 1788250308944
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788250308954,
+      "uuid": "65d508f2-dcd2-4a32-b2b7-6e839753c7f8",
+      "stop": 1788250308969
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "c391273e-73b3-4ce3-aaf0-960fd110c159-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.api.loginApi.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "41c8ea041f33766023b71b3851b179b2"
+    },
+    { "name": "titlePath", "value": " > chromium > api\\loginApi.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-11196-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\loginApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788250307073,
+  "testCaseId": "b5690e8a81abb2e428df334dbd95c9dd",
+  "fullName": "api/loginApi.spec.ts:12:5",
+  "titlePath": ["automationexercise", "api", "loginApi.spec.ts"],
+  "stop": 1788250308841
+}

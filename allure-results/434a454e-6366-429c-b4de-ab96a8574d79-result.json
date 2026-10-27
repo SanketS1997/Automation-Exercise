@@ -1,0 +1,216 @@
+{
+  "uuid": "434a454e-6366-429c-b4de-ab96a8574d79",
+  "name": "get started link",
+  "historyId": "a10cc3ffbe908f9c6e9aa146a4027a36:84e28e814b821ed013329cc8dbc467e0",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: browserContext.newPage: Target page, context or browser has been closed",
+    "trace": "Error: browserContext.newPage: Target page, context or browser has been closed"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: browserContext.newPage: Target page, context or browser has been closed",
+        "trace": "Error: browserContext.newPage: Target page, context or browser has been closed"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1787915590665,
+              "uuid": "8b019b60-ec5b-4130-b76b-cd6dac473540",
+              "stop": 1787915591238
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1787915590655,
+          "uuid": "c65be5eb-e253-4bc1-b4af-ae865f9c7532",
+          "stop": 1787915591238
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1787915591252,
+              "uuid": "1c533246-3a9f-460f-97d4-40f1b1b66d4a",
+              "stop": 1787915591400
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1787915591247,
+          "uuid": "ed68f5d4-def9-4db4-a4e4-0723e08bc3eb",
+          "stop": 1787915591403
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: browserContext.newPage: Target page, context or browser has been closed",
+            "trace": "Error: browserContext.newPage: Target page, context or browser has been closed"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Error: browserContext.newPage: Target page, context or browser has been closed",
+                "trace": "Error: browserContext.newPage: Target page, context or browser has been closed"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1787915591407,
+              "uuid": "333bdc17-b709-441f-86a6-1f780f839559",
+              "stop": 1787915594183
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1787915591404,
+          "uuid": "487ff0ac-be98-4fdf-bef0-c90b12cfabee",
+          "stop": 1787915594185
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1787915590613,
+      "uuid": "dc5da2bb-a39e-40dc-a49f-ecab2aa97775",
+      "stop": 1787915594185
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "f4e45f7c-066a-4f2a-bc4d-98e9840d0b7d-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1787915594819,
+      "name": "video",
+      "stop": 1787915594819
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "c7e513ac-2851-49a3-9c66-f755c7c82e79-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1787915594821,
+      "name": "error-context",
+      "stop": 1787915594821
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1787915594187,
+          "uuid": "4229f010-ef93-4900-ac92-b4b8007e1a52",
+          "stop": 1787915594188
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1787915594208,
+              "uuid": "f6930704-ee06-4b84-a520-7ee2a3b9bb22",
+              "stop": 1787915594215
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1787915594188,
+          "uuid": "db5aa2d0-a890-45e1-bae9-a9636b5b2762",
+          "stop": 1787915594738
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1787915594186,
+      "uuid": "23358e09-f296-4656-b94b-5b34964a1b6a",
+      "stop": 1787915594768
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "webkit" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.example.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "37e4aa066a5f6eac2e4d3b98a2ed98a7"
+    },
+    { "name": "titlePath", "value": " > webkit > example.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "sanity" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-1856-worker-3" },
+    { "name": "parentSuite", "value": "webkit" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1787915590698,
+  "testCaseId": "a10cc3ffbe908f9c6e9aa146a4027a36",
+  "fullName": "example.spec.ts:10:5",
+  "titlePath": ["automationexercise", "example.spec.ts"],
+  "stop": 1787915594192
+}

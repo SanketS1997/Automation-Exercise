@@ -1,4 +1,4 @@
-import { request } from "@playwright/test";
+import { ApiFactory } from "../factories/ApiFactory";
 import { AuthResponse } from "../models/AuthResponse";
 
 export class AuthService {
@@ -9,12 +9,9 @@ export class AuthService {
   }
 
   async login(username: string, password: string): Promise<string> {
-    const ctx = await request.newContext({ baseURL: this.baseURL });
+    const api = await ApiFactory.create(this.baseURL);
     try {
-      const res = await ctx.post("/auth", {
-        data: { username, password },
-        headers: { "Content-Type": "application/json" },
-      });
+      const res = await api.post("/auth", { username, password });
 
       if (res.status() !== 200) {
         throw new Error(
@@ -30,7 +27,7 @@ export class AuthService {
 
       return body.token;
     } finally {
-      await ctx.dispose();
+      await api.dispose();
     }
   }
 }

@@ -1,11 +1,15 @@
 import { test } from "../src/fixtures/pageFixture";
 
-test("Verify Test Cases Page", async ({ homePage, testCasesPage }) => {
-  await homePage.navigate();
+test(
+  "Verify Test Cases Page",
+  { tag: ["@regression", "@sanity"] },
+  async ({ homePage, testCasesPage }) => {
+    await homePage.navigate();
 
-  await homePage.verifyHomePageVisible();
+    await homePage.verifyHomePageVisible();
 
-  await testCasesPage.clickTestCases();
+    await testCasesPage.clickTestCases();
 
-  await testCasesPage.verifyTestCasesPage();
-});
+    await testCasesPage.verifyTestCasesPage();
+  },
+);

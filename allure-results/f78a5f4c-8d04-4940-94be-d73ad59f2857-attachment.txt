@@ -1,0 +1,9 @@
+2026-10-02 07:28:22 [INFO] Starting UI test suite on chromium
+2026-10-02 07:28:22 [INFO] Starting test: Login User with Invalid Credentials (project=chromium, retry=0)
+2026-10-02 07:28:34 [INFO] Opening Home Page
+2026-10-02 07:28:50 [INFO] Click Signup/Login
+2026-10-02 07:28:50 [INFO] Clicking element
+2026-10-02 07:28:52 [INFO] Logging in with wrong@gmail.com
+2026-10-02 07:28:52 [INFO] Clicking Login button
+2026-10-02 07:28:53 [INFO] Finished test: Login User with Invalid Credentials (status=passed)
+2026-10-02 07:28:54 [INFO] UI test suite finished

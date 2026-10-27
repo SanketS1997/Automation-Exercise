@@ -1,0 +1,140 @@
+{
+  "uuid": "83864d77-bc28-46c3-8e5d-096a04d6fd27",
+  "name": "has title",
+  "historyId": "cd10c99115657ec8338a2d2c48abcd7a:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: worker process exited unexpectedly (code=134, signal=null)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1788249209646,
+              "uuid": "b2eec92b-6e16-4470-a547-d872bfd853b8",
+              "stop": 1788249213063
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1788249209643,
+          "uuid": "3701179d-a1c9-410a-bb19-c13cd77a4a82",
+          "stop": 1788249213063
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788249213071,
+              "uuid": "7ddff0e6-d144-4298-a999-43d75d2d82a2",
+              "stop": 1788249213128
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788249213067,
+          "uuid": "0e833c9f-746a-4182-9ff5-f4a7555bc422",
+          "stop": 1788249213130
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788249213133,
+              "uuid": "ead6a8e5-dac4-4a61-804d-504a6d00c62d",
+              "stop": 1788249217448
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788249213131,
+          "uuid": "610fdf69-a420-46e8-a9a5-be42582aacf1",
+          "stop": 1788249217449
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788249209626,
+      "uuid": "b68cb96f-7aca-4119-a8c5-db7a0812ae13",
+      "stop": 1788249217449
+    },
+    {
+      "statusDetails": {},
+      "stage": "running",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "stderr",
+          "source": "c9038901-a88f-412e-af05-a607500f718d-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1788249217451,
+      "name": "Navigate to \"/\"",
+      "uuid": "cb0468d6-f4f6-447f-9561-a69cff1e43ba"
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.example.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "3a2a809b453af4fd564578d1a27f3e45"
+    },
+    { "name": "titlePath", "value": " > chromium > example.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-12780-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788249209627,
+  "testCaseId": "cd10c99115657ec8338a2d2c48abcd7a",
+  "fullName": "example.spec.ts:3:5",
+  "titlePath": ["automationexercise", "example.spec.ts"],
+  "stop": 1788249218200
+}

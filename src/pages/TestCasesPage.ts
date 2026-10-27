@@ -21,6 +21,11 @@ export class TestCasesPage extends BasePage {
     await AllureHelper.step("Open Test Cases Page", async () => {
       Logger.info("Opening Test Cases page");
 
+      // Wait for the element to be visible before clicking
+      await this.locators.testCasesLink.wait();
+
+      // Click and let the URL assertion verify navigation; network-idle is
+      // unreliable on this ad-supported site because third-party requests persist.
       await this.locators.testCasesLink.click();
     });
   }

@@ -69,10 +69,15 @@ export class ContactUsPage extends BasePage {
   private lastDialogMessage?: string;
 
   async acceptAlert(): Promise<void> {
-    this.page.once("dialog", async (dialog) => {
-      Logger.info(`Alert: ${dialog.message()}`);
-      this.lastDialogMessage = dialog.message();
-      await dialog.accept();
+    await AllureHelper.step("Accept Alert", async () => {
+      Logger.info("Setting up dialog handler");
+
+      // Set up the dialog handler before any action that might trigger it
+      this.page.on("dialog", async (dialog) => {
+        Logger.info(`Alert message: ${dialog.message()}`);
+        this.lastDialogMessage = dialog.message();
+        await dialog.accept();
+      });
     });
   }
 
@@ -104,7 +109,7 @@ export class ContactUsPage extends BasePage {
         // If the Home button isn't present or clickable, navigate directly to home route
       }
 
-      const { AppRoutes } = await import("../constants/AppRoutes");
+      const { AppRoutes } = await import("../constants/AppRoutes.js");
       await this.goto(AppRoutes.HOME);
     });
   }

@@ -1,0 +1,195 @@
+{
+  "uuid": "74d9aea8-39cc-4f94-a87c-5ad9cd25f954",
+  "name": "Login User with Valid Credentials",
+  "historyId": "eb652612e82cfb70329febb3c5fdbdfd:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded while setting up \"page\".",
+    "trace": "Test timeout of 30000ms exceeded while setting up \"page\"."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "statusDetails": {},
+      "stage": "running",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1788250042932,
+              "uuid": "3dc2fb25-c13b-40d8-a505-9e9ab5dd866f",
+              "stop": 1788250045284
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1788250042928,
+          "uuid": "e3abb63d-f333-4b0f-a2ce-473ce595a8a2",
+          "stop": 1788250045285
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788250045305,
+              "uuid": "ac77fd34-f6f9-448a-9726-27c2bfd121a4",
+              "stop": 1788250045352
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788250045295,
+          "uuid": "7ab03cda-bf2a-448a-85ea-c876ce7f2756",
+          "stop": 1788250045354
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Test timeout of 30000ms exceeded while setting up \"page\".",
+            "trace": "Test timeout of 30000ms exceeded while setting up \"page\"."
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Test timeout of 30000ms exceeded while setting up \"page\".",
+                "trace": "Test timeout of 30000ms exceeded while setting up \"page\"."
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788250045356,
+              "uuid": "fc5c33ce-dbe6-4da1-89b6-133c27150379",
+              "stop": 1788250075312
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788250045354,
+          "uuid": "8672c509-4874-4b03-b5da-8d615bcd3c46",
+          "stop": 1788250077759
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788250042906,
+      "uuid": "2a8470ed-8c4a-4424-a0a4-e0d81f965f09"
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "b1962134-6bb9-4910-a764-638797a81a58-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1788250076753,
+      "name": "error-context",
+      "stop": 1788250076753
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788250075314,
+          "uuid": "02b0d920-4f69-47d3-b723-2db267f6738c",
+          "stop": 1788250075314
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1788250075345,
+              "uuid": "0996493d-12c0-4bbd-bec4-b8e20bd185ac",
+              "stop": 1788250075936
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788250075315,
+          "uuid": "44a9cc95-0bb0-4329-8bc0-571d25e7fcf3",
+          "stop": 1788250075937
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788250075312,
+      "uuid": "7340247a-d31a-4af7-9026-4188ea3d90a5",
+      "stop": 1788250075976
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.login.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "a33a2987e7c3e4760bdb4074ae391282"
+    },
+    { "name": "titlePath", "value": " > chromium > login.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-1072-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "login.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788250042912,
+  "testCaseId": "eb652612e82cfb70329febb3c5fdbdfd",
+  "fullName": "login.spec.ts:4:5",
+  "titlePath": ["automationexercise", "login.spec.ts"],
+  "stop": 1788250073554
+}

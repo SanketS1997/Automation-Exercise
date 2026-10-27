@@ -1,0 +1,278 @@
+{
+  "uuid": "7d305336-0b67-4a41-b63b-fc89b6aedae7",
+  "name": "get started link",
+  "historyId": "a10cc3ffbe908f9c6e9aa146a4027a36:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'Installation' })\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 10000ms\n  - waiting for getByRole('heading', { name: 'Installation' })\n",
+    "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'Installation' })\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 10000ms\n  - waiting for getByRole('heading', { name: 'Installation' })\n\n    at C:\\Users\\91997\\AutomationExercise\\tests\\example.spec.ts:22:7"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1788251802087,
+              "uuid": "7a39a58f-7a74-497b-9e37-e7772b371e3d",
+              "stop": 1788251804509
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1788251802058,
+          "uuid": "6b0b18fb-92c9-4b97-8960-7fbd7388ac4b",
+          "stop": 1788251804510
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788251804520,
+              "uuid": "1aa1c6c5-40a0-4d88-87da-762bdc31979f",
+              "stop": 1788251805160
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788251804515,
+          "uuid": "16e8a201-ff6e-4c35-9d23-f4f7744aaf6d",
+          "stop": 1788251805312
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788251805319,
+              "uuid": "2ab328c5-eacb-41ba-9653-0d74a69f1cee",
+              "stop": 1788251810603
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788251805314,
+          "uuid": "05e68f00-2395-4129-a322-1c8262d34952",
+          "stop": 1788251810604
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788251801981,
+      "uuid": "47c6a313-9cc1-47a0-963e-3fb5bca4ee57",
+      "stop": 1788251810605
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251810614,
+      "name": "Navigate to \"/\"",
+      "uuid": "e995be06-91c9-4935-a145-9a371d92a0d4",
+      "stop": 1788251815223
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251815234,
+      "name": "Click getByRole('link', { name: 'Get started' })",
+      "uuid": "3a516def-d138-4c4a-bdb0-9d86dbcf1c32",
+      "stop": 1788251817916
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'Installation' })\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 10000ms\n  - waiting for getByRole('heading', { name: 'Installation' })\n",
+        "trace": "Error: expect(locator).toBeVisible() failed\n\nLocator: getByRole('heading', { name: 'Installation' })\nExpected: visible\nTimeout: 10000ms\nError: element(s) not found\n\nCall log:\n  - Expect \"toBeVisible\" with timeout 10000ms\n  - waiting for getByRole('heading', { name: 'Installation' })\n\n    at C:\\Users\\91997\\AutomationExercise\\tests\\example.spec.ts:22:7"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788251817929,
+      "name": "Expect \"toBeVisible\" getByRole('heading', { name: 'Installation' })",
+      "uuid": "dd196c3b-8d88-4752-997e-e374302846ef",
+      "stop": 1788251834434
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "0de84309-0259-4e7c-a61b-6cccb2b71362-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251849691,
+      "name": "screenshot",
+      "stop": 1788251849691
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "8928bfe9-0361-4dee-b9fc-8da0b688e956-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251849694,
+      "name": "video",
+      "stop": 1788251849694
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "1b3eb099-7241-4ed2-826d-eef038429aeb-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251849698,
+      "name": "error-context",
+      "stop": 1788251849698
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "2ea6924c-c0dc-4d82-bae0-a63e81612ea9-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1788251849701,
+      "name": "trace",
+      "stop": 1788251849701
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788251834749,
+          "uuid": "4fe648c3-e22d-4b4b-8483-ffc8c601359a",
+          "stop": 1788251834750
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1788251842945,
+              "uuid": "ef8f86c9-5514-4fe4-bc3d-0ee9c4cea04d",
+              "stop": 1788251844029
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788251834750,
+          "uuid": "ee7e6386-1ffe-407c-8e97-5288cf673d8d",
+          "stop": 1788251844059
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788251834440,
+      "uuid": "fa469f99-ce45-42a0-ba37-8a5c47bb6826",
+      "stop": 1788251844300
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.example.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "37e4aa066a5f6eac2e4d3b98a2ed98a7"
+    },
+    { "name": "titlePath", "value": " > firefox > example.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "sanity" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-16064-worker-3" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788251801878,
+  "testCaseId": "a10cc3ffbe908f9c6e9aa146a4027a36",
+  "fullName": "example.spec.ts:10:5",
+  "titlePath": ["automationexercise", "example.spec.ts"],
+  "stop": 1788251841449
+}

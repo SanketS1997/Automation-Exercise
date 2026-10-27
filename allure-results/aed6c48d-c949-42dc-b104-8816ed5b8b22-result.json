@@ -1,0 +1,136 @@
+{
+  "uuid": "aed6c48d-c949-42dc-b104-8816ed5b8b22",
+  "name": "API 2: POST to All Products List should not be supported",
+  "historyId": "8fdc95ded992cf983a668676b6c18f11:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1790926099233,
+              "uuid": "a1068795-0cfb-4de6-a7fe-74fed8e2204e",
+              "stop": 1790926099234
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790926099232,
+          "uuid": "178a0a55-d595-4d20-a2ce-b0b781063ce0",
+          "stop": 1790926099235
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790926099219,
+      "uuid": "88bc3f3a-2f20-4143-acbb-b95377f9af48",
+      "stop": 1790926099235
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926099239,
+      "name": "POST \"/api/productsList\"",
+      "uuid": "85462639-827b-46e9-a6da-3a862a894cb4",
+      "stop": 1790926099650
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926099653,
+      "name": "Expect \"toBe\"",
+      "uuid": "96460af1-3d49-44ec-9cda-ad4328efefaa",
+      "stop": 1790926099654
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926099659,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "0d5f718f-93f1-4c73-9bb8-7989f6b5cd18",
+      "stop": 1790926099660
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790926099662,
+          "uuid": "f80fe138-311b-4f75-bea4-de5385515b49",
+          "stop": 1790926099668
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790926099661,
+      "uuid": "14df24e2-54bb-4c26-b960-244ad880f89a",
+      "stop": 1790926099721
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.productsApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "673525470e6e626999acd12c38a86102"
+    },
+    { "name": "titlePath", "value": " > chromium > api\\productsApi.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-10456-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\productsApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790926099229,
+  "testCaseId": "8fdc95ded992cf983a668676b6c18f11",
+  "fullName": "api/productsApi.spec.ts:4:5",
+  "titlePath": ["automationexercise", "api", "productsApi.spec.ts"],
+  "stop": 1790926099669
+}

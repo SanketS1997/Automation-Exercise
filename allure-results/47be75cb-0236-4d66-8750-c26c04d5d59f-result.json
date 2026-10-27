@@ -1,0 +1,119 @@
+{
+  "uuid": "47be75cb-0236-4d66-8750-c26c04d5d59f",
+  "name": "API 2: POST to All Products List should not be supported",
+  "historyId": "8fdc95ded992cf983a668676b6c18f11:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 405\nReceived: 200",
+    "trace": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 405\nReceived: 200\n    at C:\\Users\\91997\\AutomationExercise\\tests\\api\\productsApi.spec.ts:15:33"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788970955551,
+      "uuid": "27307343-ffc9-4da3-8708-3350967d50ea",
+      "stop": 1788970955580
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788970955595,
+      "name": "Create request context",
+      "uuid": "fc6de13a-c1ff-475b-b6a7-227eab8cd69a",
+      "stop": 1788970955614
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788970955618,
+      "name": "POST \"/api/productsList\"",
+      "uuid": "8684d258-c143-4f3f-9f24-bd342ad1363b",
+      "stop": 1788970957217
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 405\nReceived: 200",
+        "trace": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 405\nReceived: 200\n    at C:\\Users\\91997\\AutomationExercise\\tests\\api\\productsApi.spec.ts:15:33"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788970957222,
+      "name": "Expect \"toBe\"",
+      "uuid": "9d3abc50-7ff6-42a7-bd2e-8032372db126",
+      "stop": 1788970957226
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "6e13c432-3bb0-4d05-abef-1681927c6a55-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1788970957258,
+      "name": "error-context",
+      "stop": 1788970957259
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788970957230,
+      "uuid": "af146719-92d0-49d4-a8c3-e0231f1a5292",
+      "stop": 1788970957245
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.productsApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "673525470e6e626999acd12c38a86102"
+    },
+    { "name": "titlePath", "value": " > chromium > api\\productsApi.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-16380-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\productsApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788970955548,
+  "testCaseId": "8fdc95ded992cf983a668676b6c18f11",
+  "fullName": "api/productsApi.spec.ts:7:5",
+  "titlePath": ["automationexercise", "api", "productsApi.spec.ts"],
+  "stop": 1788970957206
+}

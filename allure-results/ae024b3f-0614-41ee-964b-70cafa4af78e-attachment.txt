@@ -1,0 +1,9 @@
+2026-10-02 07:28:21 [INFO] Starting UI test suite on chromium
+2026-10-02 07:28:21 [INFO] Starting test: Login User with Valid Credentials (project=chromium, retry=0)
+2026-10-02 07:28:34 [INFO] Opening Home Page
+2026-10-02 07:28:47 [INFO] Click Signup/Login
+2026-10-02 07:28:47 [INFO] Clicking element
+2026-10-02 07:28:48 [INFO] Logging in with sanketshevale111@gmail.com
+2026-10-02 07:28:48 [INFO] Clicking Login button
+2026-10-02 07:28:50 [INFO] Finished test: Login User with Valid Credentials (status=passed)
+2026-10-02 07:28:51 [INFO] UI test suite finished

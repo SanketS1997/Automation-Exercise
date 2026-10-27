@@ -1,0 +1,187 @@
+{
+  "uuid": "ef1b3add-bd4e-4df4-ac19-cf52a4f8514d",
+  "name": "API 5: POST to Search Product returns matching products",
+  "historyId": "d0b528cec6d4458cdd8c292903ed16b9:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1790951183540,
+              "uuid": "60a9c63d-401b-4294-824c-e7932f1645e8",
+              "stop": 1790951183540
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790951183538,
+          "uuid": "f317a7f1-f608-43ea-bd78-11e06021658d",
+          "stop": 1790951183541
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790951183531,
+      "uuid": "8acd8ae3-5b64-4e84-9e13-9462d6d1e523",
+      "stop": 1790951183541
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951183543,
+      "name": "POST \"/api/searchProduct\"",
+      "uuid": "63d01925-1a1d-4fa9-b2ac-e688dbfd7f22",
+      "stop": 1790951184299
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951184300,
+      "name": "Expect \"toBe\"",
+      "uuid": "bc94904f-fdcb-45d7-81f5-6abaff9bf773",
+      "stop": 1790951184301
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951184306,
+      "name": "Expect \"toBe\"",
+      "uuid": "6d1361bb-2669-44dd-bdc9-a39f5eebc03a",
+      "stop": 1790951184307
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951184307,
+      "name": "Expect \"toEqual\"",
+      "uuid": "c079d5a5-604b-4203-9bba-c10da8eb47c9",
+      "stop": 1790951184308
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951184309,
+      "name": "Expect \"toBeGreaterThan\"",
+      "uuid": "97688ba1-d717-4265-9239-95a2e77e73c9",
+      "stop": 1790951184310
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951184310,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "cc8b4319-b7b1-4386-87cb-c4fc22985955",
+      "stop": 1790951184312
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951184312,
+      "name": "Expect \"toBe\"",
+      "uuid": "d138e2b2-c960-4042-a42b-d485c5311117",
+      "stop": 1790951184313
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790951184314,
+          "uuid": "6ae93166-b405-45d9-a416-08b656738c1e",
+          "stop": 1790951184317
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790951184313,
+      "uuid": "b5f52ef4-0a08-4be8-af02-f05a60e022f1",
+      "stop": 1790951184328
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.searchProductApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "fb31f82457902e6786e8bbceb888def7"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\searchProductApi.spec.ts"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-4632-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\searchProductApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790951183537,
+  "testCaseId": "d0b528cec6d4458cdd8c292903ed16b9",
+  "fullName": "api/searchProductApi.spec.ts:6:5",
+  "titlePath": ["automationexercise", "api", "searchProductApi.spec.ts"],
+  "stop": 1790951184316
+}

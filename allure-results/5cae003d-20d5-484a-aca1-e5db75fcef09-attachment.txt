@@ -1,0 +1,5 @@
+2026-08-28 11:05:49 [INFO] Opening Home Page
+2026-08-28 11:05:53 [INFO] Opening Products Page
+2026-08-28 11:05:53 [INFO] Clicking element
+2026-08-28 11:06:02 [INFO] Opening First Product
+2026-08-28 11:06:02 [INFO] Clicking element

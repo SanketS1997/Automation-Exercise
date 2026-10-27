@@ -10,6 +10,7 @@
     "types": ["node", "@playwright/test"]
   },
   "include": [
+    "src/**/*.ts",
     "tests/**/*.ts",
     "pages/**/*.ts",
     "fixtures/**/*.ts",

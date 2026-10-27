@@ -1,0 +1,353 @@
+{
+  "uuid": "e4b5c165-1681-4f58-9c3c-042fa3ac9a11",
+  "name": "Register User with Existing Email",
+  "historyId": "c2c62d9837aa7dd31afdaca8b5411f85:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788091842932,
+              "uuid": "883c6d3e-36bd-4d0b-a33f-3f0a659ab8ef",
+              "stop": 1788091842962
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788091842927,
+          "uuid": "c826ca1f-d5ac-4b78-9573-889c0421e0eb",
+          "stop": 1788091842964
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788091842969,
+              "uuid": "b57f5521-1e4e-4469-91a3-1537f6459a46",
+              "stop": 1788091844590
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788091842965,
+          "uuid": "561e8140-81fa-462b-92f5-bb66c8bac610",
+          "stop": 1788091844590
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1788091844592,
+          "uuid": "83ae242e-4ec2-404b-aae9-08d6001e0914",
+          "stop": 1788091844592
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"loginPage\"",
+          "start": 1788091844594,
+          "uuid": "32139b45-13ec-43d0-bbb7-53c8f7468cf2",
+          "stop": 1788091844595
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788091842879,
+      "uuid": "3abfbc16-3bb3-4120-82d5-3ec83a1274c9",
+      "stop": 1788091844595
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788091844605,
+          "name": "Navigate to \"/\"",
+          "uuid": "5ff1ee4d-613a-43f5-b854-79e92c49b110",
+          "stop": 1788091847934
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788091844599,
+      "name": "Navigate to Home Page",
+      "uuid": "3887697a-7f8c-447e-b1f9-a77caf446bfc",
+      "stop": 1788091847936
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788091847943,
+      "name": "Expect \"toBeVisible\" locator('img[alt=\"Website for automation practice\"]')",
+      "uuid": "6f9695ac-bd22-464a-b278-07e4f8874cfe",
+      "stop": 1788091848294
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788091848303,
+          "name": "Click getByRole('link', { name: 'Signup / Login' })",
+          "uuid": "013f5dbf-5a95-439c-9d1c-c74da45bf1a1",
+          "stop": 1788091848988
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788091848297,
+      "name": "Click Signup/Login",
+      "uuid": "b261f030-18a7-442b-96d8-d99e941359a5",
+      "stop": 1788091848988
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788091849009,
+      "name": "Expect \"toBeVisible\" getByRole('heading', { name: 'New User Signup!' })",
+      "uuid": "1e96fe25-b86f-4d74-84e8-ef16085ba97a",
+      "stop": 1788091849192
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788091849203,
+          "name": "Fill \"Sanket Shevale\" locator('[data-qa=\"signup-name\"]')",
+          "uuid": "1dd2d68c-c3dd-4c00-b839-7d5eac6ee857",
+          "stop": 1788091849297
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788091849301,
+          "name": "Fill \"sanketshevale111@gmail.com\" locator('[data-qa=\"signup-email\"]')",
+          "uuid": "3a0e3ca5-9e46-4afe-8a74-c5b6ce452dcd",
+          "stop": 1788091849364
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788091849193,
+      "name": "Enter Signup Details",
+      "uuid": "b0c54d44-95ef-44b1-9294-220bb72e63c7",
+      "stop": 1788091849368
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1788091849405,
+          "name": "Click locator('[data-qa=\"signup-button\"]')",
+          "uuid": "868441ff-66a0-4205-a1b2-63cf9b7949e0",
+          "stop": 1788091849957
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788091849369,
+      "name": "Click Signup Button",
+      "uuid": "089955e6-e5c6-45da-b2e9-3f7d757ad273",
+      "stop": 1788091849958
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1788091849962,
+      "name": "Expect \"toBeVisible\" getByText('Email Address already exist!')",
+      "uuid": "ec117c58-47dd-4250-af24-bfb6f963a4fa",
+      "stop": 1788091850357
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"loginPage\"",
+          "start": 1788091850360,
+          "uuid": "93ae3553-59d4-4df5-bf43-a1d69e9558d5",
+          "stop": 1788091850360
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1788091850366,
+          "uuid": "5269f92c-7c2c-4cd5-a412-43a397f32125",
+          "stop": 1788091850366
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788091850368,
+          "uuid": "f329ac56-a222-4740-bf85-144f118c57c5",
+          "stop": 1788091850368
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1788091850632,
+              "uuid": "569157ae-d9b4-488c-97e3-4dd61bc72f9a",
+              "stop": 1788091853742
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788091850369,
+          "uuid": "c4f3e8f5-d6e7-4e32-a23a-7ef82c32688d",
+          "stop": 1788091853747
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788091850359,
+      "uuid": "0aebd173-bc84-470b-8184-6b95d64f13d6",
+      "stop": 1788091853860
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "86f52ff7-d482-447a-ba84-3d6857a47352-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.registerExistingUser.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "ef4bccb462ad03af68815a6da3de5f0d"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > registerExistingUser.spec.ts"
+    },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-1576-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "registerExistingUser.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788091844280,
+  "testCaseId": "c2c62d9837aa7dd31afdaca8b5411f85",
+  "fullName": "registerExistingUser.spec.ts:4:5",
+  "titlePath": ["automationexercise", "registerExistingUser.spec.ts"],
+  "stop": 1788091855104
+}

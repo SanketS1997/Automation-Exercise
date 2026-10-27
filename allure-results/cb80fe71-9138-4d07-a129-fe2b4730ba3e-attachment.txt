@@ -1,0 +1,7 @@
+2026-09-01 08:45:44 [INFO] Opening Home Page
+2026-09-01 08:45:52 [INFO] Opening Contact Us page
+2026-09-01 08:45:53 [INFO] Entering contact details for sanketshevale111@gmail.com
+2026-09-01 08:45:53 [INFO] Uploading file: src/data/sample.txt
+2026-09-01 08:45:53 [INFO] Setting up dialog handler
+2026-09-01 08:45:53 [INFO] Submitting Contact Us form
+2026-09-01 08:45:59 [INFO] Navigating back to Home page

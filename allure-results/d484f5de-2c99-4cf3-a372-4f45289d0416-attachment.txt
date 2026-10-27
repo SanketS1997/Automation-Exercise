@@ -1,0 +1,6 @@
+2026-09-01 08:55:51 [INFO] Opening Home Page
+2026-09-01 08:56:02 [INFO] Opening Products Page
+2026-09-01 08:56:02 [INFO] Clicking element
+2026-09-01 08:56:09 [INFO] Searching Product : Blue Top
+2026-09-01 08:56:09 [INFO] Entering value: Blue Top
+2026-09-01 08:56:09 [INFO] Clicking element

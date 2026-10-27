@@ -1,0 +1,5 @@
+2026-08-30 12:10:25 [INFO] Opening Home Page
+2026-08-30 12:10:30 [INFO] Click Signup/Login
+2026-08-30 12:10:30 [INFO] Clicking element
+2026-08-30 12:10:33 [INFO] Logging in with wrong@gmail.com
+2026-08-30 12:10:33 [INFO] Clicking Login button

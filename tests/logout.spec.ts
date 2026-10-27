@@ -1,9 +1,9 @@
-import { test } from "@playwright/test";
+import { test } from "../src/fixtures/pageFixture";
 import { HomePage } from "../src/pages/HomePage";
 import { LoginPage } from "../src/pages/LoginPage";
 import loginData from "../src/data/loginData.json";
 
-test("Logout User", async ({ page }) => {
+test("Logout User", { tag: ["@regression", "@smoke"] }, async ({ page }) => {
   const homePage = new HomePage(page);
   const loginPage = new LoginPage(page);
 

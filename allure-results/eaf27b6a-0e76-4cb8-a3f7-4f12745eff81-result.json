@@ -1,0 +1,139 @@
+{
+  "uuid": "eaf27b6a-0e76-4cb8-a3f7-4f12745eff81",
+  "name": "API 6: POST to Search Product without search_product returns a bad request",
+  "historyId": "29322fc6bc929ba6e62a734b6288dc72:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1790926099733,
+              "uuid": "1c1134a3-e437-44e5-88d5-cdb0388e2906",
+              "stop": 1790926099734
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790926099733,
+          "uuid": "52ece454-bb22-45cb-8283-d1be7111bb31",
+          "stop": 1790926099735
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790926099729,
+      "uuid": "1b884152-d72e-4448-b7b8-df036a796a18",
+      "stop": 1790926099735
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926099737,
+      "name": "POST \"/api/searchProduct\"",
+      "uuid": "f0a9bbea-5c80-459c-b950-41c4fae1aa38",
+      "stop": 1790926100129
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926100132,
+      "name": "Expect \"toBe\"",
+      "uuid": "32f10c30-b021-4f5c-88d8-a34292b3f947",
+      "stop": 1790926100133
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926100139,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "114d8559-6fc5-4274-a0a1-4d549ce31292",
+      "stop": 1790926100140
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790926100144,
+          "uuid": "13b57e9b-1ac6-4368-ad82-4f054a102b75",
+          "stop": 1790926100155
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790926100142,
+      "uuid": "f46c5420-4d08-451f-898e-17f859bf4b03",
+      "stop": 1790926100188
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.searchProductApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "c3aaa39efd44d963f00b8b473d5faf8a"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\searchProductApi.spec.ts"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-10456-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\searchProductApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790926099734,
+  "testCaseId": "29322fc6bc929ba6e62a734b6288dc72",
+  "fullName": "api/searchProductApi.spec.ts:35:5",
+  "titlePath": ["automationexercise", "api", "searchProductApi.spec.ts"],
+  "stop": 1790926100156
+}

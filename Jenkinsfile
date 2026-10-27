@@ -1,6 +1,11 @@
 pipeline {
     agent any
 
+    environment {
+        CI = 'true'
+        HEADLESS = 'true'
+    }
+
     stages {
 
         stage('Checkout') {
@@ -30,7 +35,7 @@ pipeline {
 
     post {
         always {
-            archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
+            archiveArtifacts artifacts: 'playwright-report/**, test-results/**, allure-results/**', allowEmptyArchive: true
         }
     }
 }

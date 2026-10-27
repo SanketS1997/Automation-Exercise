@@ -1,0 +1,139 @@
+{
+  "uuid": "434ea1d0-8e4a-45c5-9ec7-38297374370d",
+  "name": "API 7: POST to Verify Login with valid details",
+  "historyId": "a7c2962af332de5bdadb733d9ad5c7fd:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1790926100255,
+              "uuid": "745b6cb7-c7af-4163-8e1c-bdfa3b97bbc4",
+              "stop": 1790926100262
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790926100251,
+          "uuid": "32f6f737-7978-4b34-abd9-fc72f701d0af",
+          "stop": 1790926100263
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790926100219,
+      "uuid": "9314ee0e-ff60-4b9e-849c-cd9b8ee51136",
+      "stop": 1790926100263
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926100266,
+      "name": "POST \"/api/verifyLogin\"",
+      "uuid": "e1562fdf-0c66-4429-a12f-987701aa9fa0",
+      "stop": 1790926100827
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926100830,
+      "name": "Expect \"toBe\"",
+      "uuid": "bb7a8b6e-e459-4989-881a-0ebb5fea0466",
+      "stop": 1790926100830
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926100835,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "b7fdb059-0777-48a4-bc20-7cf38b1fff6d",
+      "stop": 1790926100836
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790926100840,
+          "uuid": "6326c459-67a5-4a2e-bdcb-cfe5bf312a81",
+          "stop": 1790926100848
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790926100838,
+      "uuid": "b1839bf7-9203-4c6d-97f5-dfb0cc4d7abf",
+      "stop": 1790926100880
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.verifyLoginApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "e32fcbe01f92121fd881a14751762fd8"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\verifyLoginApi.spec.ts"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-10456-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\verifyLoginApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790926100254,
+  "testCaseId": "a7c2962af332de5bdadb733d9ad5c7fd",
+  "fullName": "api/verifyLoginApi.spec.ts:5:5",
+  "titlePath": ["automationexercise", "api", "verifyLoginApi.spec.ts"],
+  "stop": 1790926100855
+}

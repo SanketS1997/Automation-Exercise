@@ -1,0 +1,9 @@
+2026-10-02 14:27:06 [INFO] Starting UI test suite on chromium
+2026-10-02 14:27:06 [INFO] Starting test: Verify All Products and Product Detail Page (project=chromium, retry=0)
+2026-10-02 14:27:09 [INFO] Opening Home Page
+2026-10-02 14:27:26 [INFO] Opening Products Page
+2026-10-02 14:27:26 [INFO] Clicking element
+2026-10-02 14:27:28 [INFO] Opening First Product
+2026-10-02 14:27:28 [INFO] Clicking element
+2026-10-02 14:27:30 [INFO] Finished test: Verify All Products and Product Detail Page (status=passed)
+2026-10-02 14:27:32 [INFO] UI test suite finished

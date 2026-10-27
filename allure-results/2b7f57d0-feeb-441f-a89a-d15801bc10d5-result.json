@@ -1,0 +1,196 @@
+{
+  "uuid": "2b7f57d0-feeb-441f-a89a-d15801bc10d5",
+  "name": "API 14: GET user account details by email",
+  "historyId": "e96bdb1448d180d87e54689170e9e7a8:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790918387089,
+      "uuid": "6f9d227c-f021-41a2-9071-40d40a534f65",
+      "stop": 1790918387115
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918387125,
+      "name": "Create request context",
+      "uuid": "c2b0140e-3bb9-4616-a97c-d2a15ce2a963",
+      "stop": 1790918387139
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918387145,
+      "name": "POST \"/api/createAccount\"",
+      "uuid": "0c3b8a7e-493a-42c9-a99e-328024122fcc",
+      "stop": 1790918388493
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918388522,
+      "name": "Expect \"toBe\"",
+      "uuid": "e3b4ec77-5930-49aa-bc26-b688afeee087",
+      "stop": 1790918388524
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918388530,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "b9801cad-7558-4a09-adb2-b3629b00a4ac",
+      "stop": 1790918388536
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918388543,
+      "name": "GET \"/api/getUserDetailByEmail?email=qa-api-b1de7615-4ed2-4ab4-be7b-3631a4bf94fa%40example.com\"",
+      "uuid": "79188839-5e05-4020-b2e5-3dbe6a09b9df",
+      "stop": 1790918388954
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918388960,
+      "name": "Expect \"toBe\"",
+      "uuid": "3053494f-a345-4251-b092-5d8857d56205",
+      "stop": 1790918388963
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918388969,
+      "name": "Expect \"toBe\"",
+      "uuid": "4d45c6d3-39fb-4527-9b88-fd342627ba83",
+      "stop": 1790918388970
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918388974,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "63161615-593e-4aa7-9827-af9f36c43903",
+      "stop": 1790918388975
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918388980,
+      "name": "DELETE \"/api/deleteAccount\"",
+      "uuid": "6d7d97ff-6e47-4a36-9b19-9d5332874187",
+      "stop": 1790918389351
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918389354,
+      "name": "Expect \"toBe\"",
+      "uuid": "2258f7ae-15e3-406e-a848-bbe851695ded",
+      "stop": 1790918389355
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918389361,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "ee0ded20-64f5-4a8b-8019-5fa29de66599",
+      "stop": 1790918389362
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790918389365,
+      "uuid": "935e50be-e021-499e-a52e-beba501b143b",
+      "stop": 1790918389378
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.userDetailApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "8a513d981acd860d2c2c425ed067d45e"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\userDetailApi.spec.ts"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-6816-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\userDetailApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790918387046,
+  "testCaseId": "e96bdb1448d180d87e54689170e9e7a8",
+  "fullName": "api/userDetailApi.spec.ts:10:5",
+  "titlePath": ["automationexercise", "api", "userDetailApi.spec.ts"],
+  "stop": 1790918389304
+}

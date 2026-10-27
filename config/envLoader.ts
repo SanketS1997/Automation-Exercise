@@ -26,13 +26,15 @@ export const ENV = Object.freeze({
 
   TEST_DATA_FORMAT: required("TEST_DATA_FORMAT") as TestDataFormat,
 
-  HEADLESS: process.env.HEADLESS === "true",
+  HEADLESS:
+    process.env.HEADLESS === undefined ||
+    process.env.HEADLESS.toLowerCase() === "true",
 
   SLOW_MO: Number(process.env.SLOW_MO ?? 0),
 
-  DEFAULT_TIMEOUT: Number(process.env.DEFAULT_TIMEOUT ?? 30000),
+  DEFAULT_TIMEOUT: Number(process.env.DEFAULT_TIMEOUT ?? 60000),
 
-  EXPECT_TIMEOUT: Number(process.env.EXPECT_TIMEOUT ?? 10000),
+  EXPECT_TIMEOUT: Number(process.env.EXPECT_TIMEOUT ?? 15000),
 
   VIEWPORT: {
     width: Number(process.env.VIEWPORT_WIDTH ?? 1440),

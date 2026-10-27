@@ -5,6 +5,10 @@ import { HomePage } from "../pages/HomePage";
 import { LoginPage } from "../pages/LoginPage";
 import { ProductsPage } from "../pages/ProductsPage";
 import { TestCasesPage } from "../pages/TestCasesPage";
+import { afterAll } from "../hooks/AfterAll";
+import { afterEach } from "../hooks/AfterEach";
+import { beforeAll } from "../hooks/BeforeAll";
+import { beforeEach } from "../hooks/BeforeEach";
 
 type PageFixtures = {
   contactUsPage: ContactUsPage;
@@ -35,5 +39,22 @@ export const test = base.extend<PageFixtures>({
     await use(new TestCasesPage(page));
   },
 });
+
+test.beforeAll(({ browserName }) => beforeAll(browserName));
+test.beforeEach(async ({ page }, testInfo) => {
+  await page.route(
+    /(googlesyndication\.com|doubleclick\.net|googletagservices\.com|googletagmanager\.com|google\.com\/pagead)/i,
+    (route) => route.abort(),
+  );
+
+  await page.addLocatorHandler(
+    page.getByText("Close", { exact: true }),
+    async (closeButton) => closeButton.click(),
+  );
+
+  beforeEach(testInfo);
+});
+test.afterEach(async ({ page }, testInfo) => afterEach(page, testInfo));
+test.afterAll(() => afterAll());
 
 export { expect };

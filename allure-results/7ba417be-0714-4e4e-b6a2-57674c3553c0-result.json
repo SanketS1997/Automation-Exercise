@@ -1,0 +1,133 @@
+{
+  "uuid": "7ba417be-0714-4e4e-b6a2-57674c3553c0",
+  "name": "API 4: PUT to All Brands List should not be supported",
+  "historyId": "5dc8f306c32ffa6516fb0733c55bb299:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create request context",
+              "start": 1790926097783,
+              "uuid": "8cca93c0-4a4f-4554-9827-0ed3c7c85632",
+              "stop": 1790926097785
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790926097780,
+          "uuid": "c003b43d-6de2-4612-84d8-83c9d88dc7a5",
+          "stop": 1790926097786
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790926097761,
+      "uuid": "fe2cbd11-05e0-46b9-be00-9d3b03fdccd1",
+      "stop": 1790926097786
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926097792,
+      "name": "PUT \"/api/brandsList\"",
+      "uuid": "5af9ea62-5340-4681-8e81-de09bb3cd2c9",
+      "stop": 1790926099158
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926099160,
+      "name": "Expect \"toBe\"",
+      "uuid": "91447155-e3ed-403b-adeb-820dca866704",
+      "stop": 1790926099160
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790926099165,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "76b51c6d-1843-4c8a-9343-3681a0ab2a84",
+      "stop": 1790926099168
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"api\"",
+          "start": 1790926099170,
+          "uuid": "e0a7b874-edee-4ad7-9a4d-ee1f6ae5f226",
+          "stop": 1790926099191
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790926099169,
+      "uuid": "5d1705e4-3851-4010-8499-6f0a3dfa46ec",
+      "stop": 1790926099210
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.api.brandsApi.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "1b28dbe01d1518dd48d53058d989e5a4"
+    },
+    { "name": "titlePath", "value": " > chromium > api\\brandsApi.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-10456-worker-1" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\brandsApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790926097795,
+  "testCaseId": "5dc8f306c32ffa6516fb0733c55bb299",
+  "fullName": "api/brandsApi.spec.ts:4:5",
+  "titlePath": ["automationexercise", "api", "brandsApi.spec.ts"],
+  "stop": 1790926099207
+}

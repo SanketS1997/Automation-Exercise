@@ -1,0 +1,2 @@
+2026-09-01 08:56:25 [INFO] Opening Home Page
+2026-09-01 08:56:34 [INFO] Opening Test Cases page

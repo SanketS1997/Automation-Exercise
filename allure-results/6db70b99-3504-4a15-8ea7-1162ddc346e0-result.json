@@ -1,0 +1,184 @@
+{
+  "uuid": "6db70b99-3504-4a15-8ea7-1162ddc346e0",
+  "name": "API 13: PUT to Update Account updates the user",
+  "historyId": "20164d324e68b7ab54ec8b47577b556c:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "passed",
+  "statusDetails": {},
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790918264946,
+      "uuid": "a5fcb32f-e26a-42a4-9ff4-edb74bb97172",
+      "stop": 1790918264971
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918264984,
+      "name": "Create request context",
+      "uuid": "a6007309-9d7d-4f49-873d-838230324266",
+      "stop": 1790918264998
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918265003,
+      "name": "POST \"/api/createAccount\"",
+      "uuid": "4d6880e2-6bc4-48a7-92dd-8cf2135d914f",
+      "stop": 1790918266657
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918266679,
+      "name": "Expect \"toBe\"",
+      "uuid": "cb9d4f17-6e24-45ef-ae3d-5e69e59a77e4",
+      "stop": 1790918266681
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918266684,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "fab432b2-236e-4ea4-abc7-f813682fb127",
+      "stop": 1790918266688
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918266696,
+      "name": "PUT \"/api/updateAccount\"",
+      "uuid": "7422d134-948d-42fb-9a0d-9f7d80d75c58",
+      "stop": 1790918267116
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918267118,
+      "name": "Expect \"toBe\"",
+      "uuid": "6cb89e23-1357-4e03-9ecb-91b626b50ac0",
+      "stop": 1790918267119
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918267127,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "9df2a4ca-f693-4bc6-a254-46ccd837e85c",
+      "stop": 1790918267128
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918267135,
+      "name": "DELETE \"/api/deleteAccount\"",
+      "uuid": "7c7c9e03-7ebc-44f9-92b8-fc45eb11b453",
+      "stop": 1790918267530
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918267534,
+      "name": "Expect \"toBe\"",
+      "uuid": "c057d2ce-6826-403d-b9b0-b53417b880c6",
+      "stop": 1790918267535
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790918267543,
+      "name": "Expect \"toMatchObject\"",
+      "uuid": "79abef25-b99b-4e4b-9f45-4957a1e34b9a",
+      "stop": 1790918267544
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790918267562,
+      "uuid": "24886013-6733-41a8-80ea-b27a7bcf624f",
+      "stop": 1790918267629
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    {
+      "name": "package",
+      "value": "automationexercise.api.updateAccountApi.spec.ts"
+    },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "ff4f3f7098f1586f549e90cd487d6aee"
+    },
+    {
+      "name": "titlePath",
+      "value": " > chromium > api\\updateAccountApi.spec.ts"
+    },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "api" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-6816-worker-0" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "api\\updateAccountApi.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790918264890,
+  "testCaseId": "20164d324e68b7ab54ec8b47577b556c",
+  "fullName": "api/updateAccountApi.spec.ts:9:5",
+  "titlePath": ["automationexercise", "api", "updateAccountApi.spec.ts"],
+  "stop": 1790918267495
+}

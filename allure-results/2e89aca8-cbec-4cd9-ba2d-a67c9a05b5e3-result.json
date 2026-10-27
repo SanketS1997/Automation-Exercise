@@ -1,0 +1,410 @@
+{
+  "uuid": "2e89aca8-cbec-4cd9-ba2d-a67c9a05b5e3",
+  "name": "Login User with Invalid Credentials",
+  "historyId": "2252cc3672df146324e79634ecbace44:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded.",
+    "trace": "Test timeout of 30000ms exceeded."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeAll hook",
+          "start": 1790951185608,
+          "uuid": "ffe0a316-e4e5-4400-b0d0-17bcc7e044e9",
+          "stop": 1790951185639
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "beforeEach hook",
+          "start": 1790951185640,
+          "uuid": "3a250338-81bd-493d-93fd-a1a2be18d5f7",
+          "stop": 1790951185653
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1790951185658,
+              "uuid": "154149a7-b016-402e-b02f-13cffe4b17e5",
+              "stop": 1790951188363
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1790951185655,
+          "uuid": "20410453-3545-4e47-9ea2-cdfbd7a39cd8",
+          "stop": 1790951188363
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1790951188371,
+              "uuid": "90fdacf5-98e8-4f4f-a1f0-bc5404931512",
+              "stop": 1790951188504
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790951188367,
+          "uuid": "d7b37329-8cfe-44da-b060-9053e5f2c743",
+          "stop": 1790951188506
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1790951188508,
+              "uuid": "f530b255-0e43-4d49-8502-62f01e37a00e",
+              "stop": 1790951191875
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790951188506,
+          "uuid": "b1dacb9b-1202-4e56-bdcf-491da7197afa",
+          "stop": 1790951191875
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790951191876,
+          "uuid": "e4ada437-bf0e-41ff-aead-edff9e1a37df",
+          "stop": 1790951191878
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"loginPage\"",
+          "start": 1790951191879,
+          "uuid": "3443c00e-11d8-46f8-a36c-bc368ef38471",
+          "stop": 1790951191881
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1790951185608,
+      "uuid": "c277f4b2-8ea5-4feb-8290-496fca3c9f4d",
+      "stop": 1790951191881
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1790951194212,
+          "name": "Navigate to \"/\"",
+          "uuid": "4c1c5728-5073-44d6-be2d-9ae6cb0ea6e2",
+          "stop": 1790951223218
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1790951194184,
+      "name": "Navigate to Home Page",
+      "uuid": "300dcccf-1506-4139-87e2-b119ea96348c",
+      "stop": 1790951223219
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "42a870ef-83c7-4da8-abad-ecc2c83762db-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1790951224538,
+      "name": "screenshot",
+      "stop": 1790951224538
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "d826ed93-c741-4f0b-8331-dd983e8b140c-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1790951224544,
+      "name": "video",
+      "stop": 1790951224545
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "4fd4850e-c985-4a8b-b043-dfbefef87938-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1790951224548,
+      "name": "error-context",
+      "stop": 1790951224548
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "dae4403d-ddd6-4e71-9014-c8c804daaf75-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1790951224550,
+      "name": "error-context",
+      "stop": 1790951224550
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "afterEach hook",
+          "start": 1790951221960,
+          "uuid": "17a2b128-3bb6-4694-a8ca-81f61b30ca5f",
+          "stop": 1790951221963
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"loginPage\"",
+          "start": 1790951221964,
+          "uuid": "ebc6df4e-fc1e-41c1-8c0f-5b883bc11e92",
+          "stop": 1790951221964
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1790951221965,
+          "uuid": "f6efdd82-2e76-4a59-b8e6-ce0e2d80a169",
+          "stop": 1790951221965
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1790951221966,
+          "uuid": "39942ba9-2401-47e1-bb99-f4be1effd980",
+          "stop": 1790951221967
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [
+                {
+                  "status": "passed",
+                  "statusDetails": {},
+                  "stage": "finished",
+                  "steps": [],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Expect \"toBeVisible\" locator('img[alt=\"Website for automation practice\"]')",
+                  "start": 1790951223249,
+                  "uuid": "cba9f629-634b-467f-ac0e-5698e2ca61c6",
+                  "stop": 1790951223283
+                },
+                {
+                  "status": "failed",
+                  "statusDetails": {
+                    "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Signup / Login' })\n",
+                    "trace": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Signup / Login' })\n\n    at HomePage.click (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:36:19)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:39:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"
+                  },
+                  "stage": "finished",
+                  "steps": [
+                    {
+                      "status": "failed",
+                      "statusDetails": {
+                        "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Signup / Login' })\n",
+                        "trace": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Signup / Login' })\n\n    at HomePage.click (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:36:19)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:39:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"
+                      },
+                      "stage": "finished",
+                      "steps": [],
+                      "attachments": [],
+                      "parameters": [],
+                      "name": "Click getByRole('link', { name: 'Signup / Login' })",
+                      "start": 1790951223300,
+                      "uuid": "dec0f17c-fa6b-4acf-9e9b-0b05817313b1",
+                      "stop": 1790951223384
+                    }
+                  ],
+                  "attachments": [],
+                  "parameters": [],
+                  "name": "Click Signup/Login",
+                  "start": 1790951223285,
+                  "uuid": "6996bdf0-ff95-4b1d-9a3d-1c05f22035ca",
+                  "stop": 1790951223384
+                }
+              ],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1790951222419,
+              "uuid": "ff69b2dc-3354-4872-b562-aa58f566a1ec",
+              "stop": 1790951223388
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1790951221968,
+          "uuid": "6a57e6fe-c36b-45b4-8cd0-e7453f66c068",
+          "stop": 1790951223426
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "afterAll hook",
+          "start": 1790951223502,
+          "uuid": "4b1e29e1-655e-4b3d-a977-a66ac472cbb9",
+          "stop": 1790951223614
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1790951218381,
+      "uuid": "89a4073e-2b98-4ed8-8664-369ad53f59e2",
+      "stop": 1790951223614
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "a0e41047-ef5c-4122-b434-d8282abe5cce-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.loginNegative.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "2956600cda62a64e4dd01cca2e4cfd38"
+    },
+    { "name": "titlePath", "value": " > chromium > loginNegative.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "sanity" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-4632-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "loginNegative.spec.ts" }
+  ],
+  "links": [],
+  "start": 1790951185613,
+  "testCaseId": "2252cc3672df146324e79634ecbace44",
+  "fullName": "loginNegative.spec.ts:4:5",
+  "titlePath": ["automationexercise", "loginNegative.spec.ts"],
+  "stop": 1790951220671
+}

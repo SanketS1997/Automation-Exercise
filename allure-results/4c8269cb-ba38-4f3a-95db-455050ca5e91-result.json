@@ -1,0 +1,250 @@
+{
+  "uuid": "4c8269cb-ba38-4f3a-95db-455050ca5e91",
+  "name": "get started link",
+  "historyId": "a10cc3ffbe908f9c6e9aa146a4027a36:b444eb0fbe6390c71e68b51dd25701fc",
+  "status": "broken",
+  "statusDetails": {
+    "message": "Test timeout of 30000ms exceeded.",
+    "trace": "Test timeout of 30000ms exceeded."
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1787915538901,
+              "uuid": "1cc8eb61-4335-41c7-beb5-da80a3b467b3",
+              "stop": 1787915543705
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1787915538896,
+          "uuid": "6cf54bbe-aac9-4def-981a-b519a65cd713",
+          "stop": 1787915543706
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1787915543717,
+              "uuid": "b4b8fbd6-9e56-4871-954f-6fa078de6016",
+              "stop": 1787915544261
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1787915543712,
+          "uuid": "e40e0913-0e1b-43e7-a317-511fa4b7600d",
+          "stop": 1787915544264
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1787915544269,
+              "uuid": "0ce37b9f-1657-4f6b-98e7-b31cb332295d",
+              "stop": 1787915550742
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1787915544265,
+          "uuid": "b8dc10d1-06cd-4ee3-aa0b-90d5bc41857a",
+          "stop": 1787915550742
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1787915538869,
+      "uuid": "a106ffc3-357f-4426-a660-29cb1fe3bd8a",
+      "stop": 1787915550743
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1787915550750,
+      "name": "Navigate to \"/\"",
+      "uuid": "d40bab3f-27c2-408c-bb60-0e777d1e69c5",
+      "stop": 1787915564463
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Get started' })\n    - locator resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n",
+        "trace": "Error: locator.click: Test timeout of 30000ms exceeded.\nCall log:\n  - waiting for getByRole('link', { name: 'Get started' })\n    - locator resolved to <a href=\"/docs/intro\" class=\"getStarted_Sjon\">Get started</a>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - performing click action\n\n    at C:\\Users\\91997\\AutomationExercise\\tests\\example.spec.ts:17:59"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1787915564477,
+      "name": "Click getByRole('link', { name: 'Get started' })",
+      "uuid": "79496c0c-60c6-4212-8354-34590811be52",
+      "stop": 1787915579022
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "42d25655-c9b6-4b41-8f93-e381743f9d4d-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1787915582863,
+      "name": "screenshot",
+      "stop": 1787915582864
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "1a7070b5-4918-413c-b9ef-b32fb4d8998a-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1787915582872,
+      "name": "video",
+      "stop": 1787915582872
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "a5e4373a-4afe-4c2f-a8db-0129b02f20c3-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1787915582875,
+      "name": "error-context",
+      "stop": 1787915582875
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1787915574492,
+          "uuid": "cd653ac4-b0e1-430d-b11d-650e21b153a2",
+          "stop": 1787915574502
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1787915577862,
+              "uuid": "c4113286-faf6-4094-ab69-8a00d0a2f4ab",
+              "stop": 1787915579063
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1787915574506,
+          "uuid": "02e86229-32ba-490b-82a1-57fdec2e256d",
+          "stop": 1787915579125
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1787915573723,
+      "uuid": "77f4148f-aff9-4c0c-954e-22fb7b155986",
+      "stop": 1787915579611
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "firefox" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.example.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "37e4aa066a5f6eac2e4d3b98a2ed98a7"
+    },
+    { "name": "titlePath", "value": " > firefox > example.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "sanity" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-1856-worker-0" },
+    { "name": "parentSuite", "value": "firefox" },
+    { "name": "suite", "value": "example.spec.ts" }
+  ],
+  "links": [],
+  "start": 1787915538821,
+  "testCaseId": "a10cc3ffbe908f9c6e9aa146a4027a36",
+  "fullName": "example.spec.ts:10:5",
+  "titlePath": ["automationexercise", "example.spec.ts"],
+  "stop": 1787915574220
+}

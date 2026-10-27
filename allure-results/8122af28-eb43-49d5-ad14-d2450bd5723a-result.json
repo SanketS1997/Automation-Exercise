@@ -1,1 +1,265 @@
-{"uuid":"8122af28-eb43-49d5-ad14-d2450bd5723a","name":"Verify All Products and Product Detail Page","historyId":"d3414c804c5e72859cc6091c8201e0c6:5bd835b0d6b1d4ada3b9f0db936e82c8","status":"failed","statusDetails":{"message":"Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n","trace":"Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n\n    at HomePage.goto (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:84:21)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:27:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create context","start":1786605461543,"uuid":"c8ec9e41-9021-47b4-8a7e-cdfba1fcf936","stop":1786605461695}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1786605461541,"uuid":"0d43194e-48d2-497c-bb57-aa16a89b385d","stop":1786605461697},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Create page","start":1786605461703,"uuid":"88f8d532-722e-4d08-b667-a3032c389a1c","stop":1786605462188}],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1786605461698,"uuid":"7062d975-0720-459d-aa9b-dc9a9241b81a","stop":1786605462188},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1786605462190,"uuid":"ffaafe96-0303-4b9e-9469-615639c98595","stop":1786605462191},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"productsPage\"","start":1786605462192,"uuid":"fab21e2f-68cd-443b-9148-95890e53b04a","stop":1786605462194}],"attachments":[],"parameters":[],"name":"Before Hooks","start":1786605461522,"uuid":"eba039ea-3f4b-432a-86ad-db3cf7cbac65","stop":1786605462194},{"status":"failed","statusDetails":{"message":"Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n","trace":"Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n\n    at HomePage.goto (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:84:21)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:27:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"},"stage":"finished","steps":[{"status":"failed","statusDetails":{"message":"Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n","trace":"Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n\n    at HomePage.goto (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:84:21)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:27:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"},"stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1786605462209,"name":"Navigate to \"/\"","uuid":"1f45ad83-69b9-4786-9343-4e572e91ef9a","stop":1786605462524}],"attachments":[],"parameters":[],"start":1786605462198,"name":"Navigate to Home Page","uuid":"f0c46d15-a9bd-487b-aa62-7758bc99e84e","stop":1786605462525},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"video","source":"30147575-2613-4a9a-8ba0-6144149af2f7-attachment.webm","type":"video/webm"}],"parameters":[],"start":1786605464167,"name":"video","stop":1786605464167},{"statusDetails":{},"stage":"finished","steps":[],"attachments":[{"name":"error-context","source":"32c2e211-b210-41a7-9082-5cdfe424c782-attachment.md","type":"text/markdown"}],"parameters":[],"start":1786605464169,"name":"error-context","stop":1786605464169},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"productsPage\"","start":1786605462539,"uuid":"efb3afd4-2050-48dd-a24c-826074f87a00","stop":1786605462539},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"homePage\"","start":1786605462540,"uuid":"78c1bc94-91cd-474a-98e2-933c10823ae3","stop":1786605462540},{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Fixture \"page\"","start":1786605462541,"uuid":"f75f9bcc-0c72-4c2a-a864-0baeff4c6589","stop":1786605462541},{"status":"passed","statusDetails":{},"stage":"finished","steps":[{"status":"passed","statusDetails":{},"stage":"finished","steps":[],"attachments":[],"parameters":[],"name":"Close context","start":1786605462561,"uuid":"8e67e069-3d42-476a-9337-ef609b966d6d","stop":1786605462628}],"attachments":[],"parameters":[],"name":"Fixture \"context\"","start":1786605462541,"uuid":"1a148b8e-6522-4092-a96d-b9a740b421d6","stop":1786605463137}],"attachments":[],"parameters":[],"name":"After Hooks","start":1786605462528,"uuid":"a0b31df2-42ea-4ed0-bccb-b825888ff481","stop":1786605463172}],"attachments":[{"name":"stdout","source":"aec0cce0-93b2-4314-985f-d719d588bc89-attachment.txt","type":"text/plain"}],"parameters":[{"name":"Project","value":"chromium"}],"labels":[{"name":"language","value":"javascript"},{"name":"framework","value":"playwright"},{"name":"package","value":"automationexercise.products.spec.ts"},{"name":"_fallbackTestCaseId","value":"aee889e8de1744cc82f7e6beb7f02114"},{"name":"titlePath","value":" > chromium > products.spec.ts"},{"name":"host","value":"DESKTOP-MPECNHA"},{"name":"thread","value":"pid-17580-worker-2"},{"name":"parentSuite","value":"chromium"},{"name":"suite","value":"products.spec.ts"}],"links":[],"start":1786605461550,"testCaseId":"d3414c804c5e72859cc6091c8201e0c6","fullName":"products.spec.ts:3:5","titlePath":["automationexercise","products.spec.ts"],"stop":1786605463143}
+{
+  "uuid": "8122af28-eb43-49d5-ad14-d2450bd5723a",
+  "name": "Verify All Products and Product Detail Page",
+  "historyId": "d3414c804c5e72859cc6091c8201e0c6:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n",
+    "trace": "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n\n    at HomePage.goto (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:84:21)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:27:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1786605461543,
+              "uuid": "c8ec9e41-9021-47b4-8a7e-cdfba1fcf936",
+              "stop": 1786605461695
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1786605461541,
+          "uuid": "0d43194e-48d2-497c-bb57-aa16a89b385d",
+          "stop": 1786605461697
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1786605461703,
+              "uuid": "88f8d532-722e-4d08-b667-a3032c389a1c",
+              "stop": 1786605462188
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1786605461698,
+          "uuid": "7062d975-0720-459d-aa9b-dc9a9241b81a",
+          "stop": 1786605462188
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1786605462190,
+          "uuid": "ffaafe96-0303-4b9e-9469-615639c98595",
+          "stop": 1786605462191
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1786605462192,
+          "uuid": "fab21e2f-68cd-443b-9148-95890e53b04a",
+          "stop": 1786605462194
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1786605461522,
+      "uuid": "eba039ea-3f4b-432a-86ad-db3cf7cbac65",
+      "stop": 1786605462194
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n",
+        "trace": "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n\n    at HomePage.goto (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:84:21)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:27:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n",
+            "trace": "Error: page.goto: net::ERR_ABORTED; maybe frame was detached?\nCall log:\n  - navigating to \"https://automationexercise.com/\", waiting until \"domcontentloaded\"\n\n    at HomePage.goto (C:\\Users\\91997\\AutomationExercise\\src\\pages\\BasePage.ts:84:21)\n    at action (C:\\Users\\91997\\AutomationExercise\\src\\pages\\HomePage.ts:27:18)\n    at body (C:\\Users\\91997\\AutomationExercise\\src\\reporting\\AllureHelper.ts:12:13)\n    at body (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-js-commons\\src\\facade.ts:134:48)\n    at call (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:45:56)\n    at Generator._invoke (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at Generator.next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at asyncGeneratorStep (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at _next (C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1)\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1\n    at C:\\Users\\91997\\AutomationExercise\\node_modules\\allure-playwright\\src\\runtime.ts:2:1"
+          },
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "start": 1786605462209,
+          "name": "Navigate to \"/\"",
+          "uuid": "1f45ad83-69b9-4786-9343-4e572e91ef9a",
+          "stop": 1786605462524
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "start": 1786605462198,
+      "name": "Navigate to Home Page",
+      "uuid": "f0c46d15-a9bd-487b-aa62-7758bc99e84e",
+      "stop": 1786605462525
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "30147575-2613-4a9a-8ba0-6144149af2f7-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1786605464167,
+      "name": "video",
+      "stop": 1786605464167
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "32c2e211-b210-41a7-9082-5cdfe424c782-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1786605464169,
+      "name": "error-context",
+      "stop": 1786605464169
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"productsPage\"",
+          "start": 1786605462539,
+          "uuid": "efb3afd4-2050-48dd-a24c-826074f87a00",
+          "stop": 1786605462539
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"homePage\"",
+          "start": 1786605462540,
+          "uuid": "78c1bc94-91cd-474a-98e2-933c10823ae3",
+          "stop": 1786605462540
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1786605462541,
+          "uuid": "f75f9bcc-0c72-4c2a-a864-0baeff4c6589",
+          "stop": 1786605462541
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1786605462561,
+              "uuid": "8e67e069-3d42-476a-9337-ef609b966d6d",
+              "stop": 1786605462628
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1786605462541,
+          "uuid": "1a148b8e-6522-4092-a96d-b9a740b421d6",
+          "stop": 1786605463137
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1786605462528,
+      "uuid": "a0b31df2-42ea-4ed0-bccb-b825888ff481",
+      "stop": 1786605463172
+    }
+  ],
+  "attachments": [
+    {
+      "name": "stdout",
+      "source": "aec0cce0-93b2-4314-985f-d719d588bc89-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.products.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "aee889e8de1744cc82f7e6beb7f02114"
+    },
+    { "name": "titlePath", "value": " > chromium > products.spec.ts" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-17580-worker-2" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "products.spec.ts" }
+  ],
+  "links": [],
+  "start": 1786605461550,
+  "testCaseId": "d3414c804c5e72859cc6091c8201e0c6",
+  "fullName": "products.spec.ts:3:5",
+  "titlePath": ["automationexercise", "products.spec.ts"],
+  "stop": 1786605463143
+}

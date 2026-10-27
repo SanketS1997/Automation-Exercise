@@ -1,0 +1,46 @@
+
+<--- Last few GCs --->
+
+[12484:0000022A3A6CB3B0]     1421 ms: Scavenge 59.8 (77.9) -> 53.1 (83.6) MB, 8.15 / 0.02 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+[12484:0000022A3A6CB3B0]     3076 ms: Scavenge 67.3 (84.9) -> 65.4 (87.7) MB, 20.78 / 0.01 ms  (average mu = 1.000, current mu = 1.000) allocation failure; 
+
+
+<--- JS stacktrace --->
+
+FATAL ERROR: Zone Allocation failed - process out of memory
+----- Native stack trace -----
+
+
+
+#
+# Fatal error in , line 0
+# Fatal process out of memory: Zone
+#
+#
+#
+#FailureMessage Object: 000000C546DF52F0
+----- Native stack trace -----
+
+ 1: 00007FF6A18939EB 
+ 2: 00007FF6A178606F 
+ 3: 00007FF6A2690142 
+ 4: 00007FF6A2265CD3 
+ 5: 00007FF6A1D487D4 
+ 6: 00007FF6A26D09C4 
+ 7: 00007FF6A2720AFA 
+ 8: 00007FF6A273976F 
+ 9: 00007FF6A27FBF38 
+10: 00007FF6A2811823 
+11: 00007FF6A280D5E3 
+12: 00007FF6A280E6FF 
+13: 00007FF6A27F8964 
+14: 00007FF6A2758691 
+15: 00007FF6A275605C 
+16: 00007FF6A2751CAA 
+17: 00007FF6A21D44E1 
+18: 00007FF6A21A1401 
+19: 00007FF6A1788B4D 
+20: 00007FF6A18E778D 
+21: 00007FF6A2AB3770 
+22: 00007FFE81B77374 
+23: 00007FFE83ABCC91 RtlUserThreadStart+33

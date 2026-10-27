@@ -1,0 +1,5 @@
+2026-10-02 14:27:09 [INFO] Opening Home Page
+2026-10-02 14:27:26 [INFO] Click Signup/Login
+2026-10-02 14:27:26 [INFO] Clicking element
+2026-10-02 14:27:28 [INFO] Entering signup details for sanket1790951229703@gmail.com
+2026-10-02 14:27:28 [INFO] Clicking Signup button

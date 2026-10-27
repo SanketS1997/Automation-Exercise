@@ -1,0 +1,209 @@
+{
+  "uuid": "e46651ce-379a-405b-a27b-fb020ccba449",
+  "name": "Register User - Step 1 to Step 7",
+  "historyId": "6ed21b770f1e276b737020de8fdc7d14:5bd835b0d6b1d4ada3b9f0db936e82c8",
+  "status": "failed",
+  "statusDetails": {
+    "message": "Error: Assertion error",
+    "trace": "Error: Assertion error"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: browserContext.newPage: Target crashed ",
+        "trace": "Error: browserContext.newPage: Target crashed "
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Launch browser",
+              "start": 1788250316068,
+              "uuid": "6a681e04-5559-4710-9e51-430cb77ef241",
+              "stop": 1788250317174
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"browser\"",
+          "start": 1788250316053,
+          "uuid": "6f1fc5fa-3215-4cee-99af-5f3f3ae77e1e",
+          "stop": 1788250317174
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create context",
+              "start": 1788250317183,
+              "uuid": "ac502654-4222-464c-9350-b79729ed605e",
+              "stop": 1788250317325
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788250317179,
+          "uuid": "f511889a-1026-44fd-8849-c1ab19db5e3f",
+          "stop": 1788250317328
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Test timeout of 30000ms exceeded while setting up \"page\".",
+            "trace": "Test timeout of 30000ms exceeded while setting up \"page\"."
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Test timeout of 30000ms exceeded while setting up \"page\".",
+                "trace": "Test timeout of 30000ms exceeded while setting up \"page\"."
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Create page",
+              "start": 1788250317332,
+              "uuid": "635c5971-7a11-4e28-8a0b-c116237b626a",
+              "stop": 1788250326447
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788250317329,
+          "uuid": "d7562d11-9fa7-4b21-869d-a1ef1b01400d",
+          "stop": 1788250327754
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1788250316019,
+      "uuid": "a654ade6-9fa9-460a-90b5-2041a54a0e13",
+      "stop": 1788250325152
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "error-context",
+          "source": "1c8e1794-68f1-45da-9103-b38d95468b5b-attachment.md",
+          "type": "text/markdown"
+        }
+      ],
+      "parameters": [],
+      "start": 1788250326568,
+      "name": "error-context",
+      "stop": 1788250326568
+    },
+    {
+      "status": "failed",
+      "statusDetails": {
+        "message": "Error: browserContext.close: Target page, context or browser has been closed",
+        "trace": "Error: browserContext.close: Target page, context or browser has been closed"
+      },
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"page\"",
+          "start": 1788250326448,
+          "uuid": "fe6417a5-6464-4526-a9a4-9ace2f21239e",
+          "stop": 1788250326448
+        },
+        {
+          "status": "failed",
+          "statusDetails": {
+            "message": "Error: browserContext.close: Target page, context or browser has been closed",
+            "trace": "Error: browserContext.close: Target page, context or browser has been closed"
+          },
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "failed",
+              "statusDetails": {
+                "message": "Error: browserContext.close: Target page, context or browser has been closed",
+                "trace": "Error: browserContext.close: Target page, context or browser has been closed"
+              },
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "Close context",
+              "start": 1788250326474,
+              "uuid": "455449af-a869-4d9e-a4b4-31b8c88c5336",
+              "stop": 1788250326475
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "Fixture \"context\"",
+          "start": 1788250326449,
+          "uuid": "c8ff2ee8-a966-43b9-8e19-30c27f55794e",
+          "stop": 1788250326476
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1788250326445,
+      "uuid": "16ca7a87-b3f4-4106-b3df-8402b3096ff5",
+      "stop": 1788250326525
+    }
+  ],
+  "attachments": [],
+  "parameters": [{ "name": "Project", "value": "chromium" }],
+  "labels": [
+    { "name": "language", "value": "javascript" },
+    { "name": "framework", "value": "playwright" },
+    { "name": "package", "value": "automationexercise.register.spec.ts" },
+    {
+      "name": "_fallbackTestCaseId",
+      "value": "10e3332b23f39c275829d3525d52a8a3"
+    },
+    { "name": "titlePath", "value": " > chromium > register.spec.ts" },
+    { "name": "tag", "value": "regression" },
+    { "name": "tag", "value": "smoke" },
+    { "name": "host", "value": "DESKTOP-MPECNHA" },
+    { "name": "thread", "value": "pid-11196-worker-3" },
+    { "name": "parentSuite", "value": "chromium" },
+    { "name": "suite", "value": "register.spec.ts" }
+  ],
+  "links": [],
+  "start": 1788250315971,
+  "testCaseId": "6ed21b770f1e276b737020de8fdc7d14",
+  "fullName": "register.spec.ts:5:5",
+  "titlePath": ["automationexercise", "register.spec.ts"],
+  "stop": 1788250325276
+}
